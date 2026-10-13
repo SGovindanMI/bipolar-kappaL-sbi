@@ -1,0 +1,28 @@
+{
+  "extended": {
+    "python": "3.11.9",
+    "numpy": "2.4.6",
+    "scipy": "1.17.1",
+    "torch": "2.11.0+cu128",
+    "cuda": "12.8",
+    "gpu": "NVIDIA GeForce RTX 5060 Laptop GPU"
+  },
+  "reference_recorded": {
+    "device": "cuda",
+    "torch": "2.11.0+cu128"
+  },
+  "unrecorded": [
+    "CPU model",
+    "RAM",
+    "OS version",
+    "GPU memory",
+    "driver version"
+  ],
+  "sources": [
+    "runs/v6_main/manifest.json",
+    "runs/v6_main/*/manifest.json",
+    "data/posterior_v5.json",
+    "src/posterior.py",
+    "src/relaxed_posterior.py"
+  ]
+}

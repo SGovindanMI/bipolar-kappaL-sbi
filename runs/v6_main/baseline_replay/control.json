@@ -1,0 +1,12 @@
+{
+  "model_version": "5.0.0",
+  "seed": 3008,
+  "draws": 128,
+  "budget": 8192,
+  "batch": 32,
+  "min_draws": 64,
+  "admission_threshold": 0.75,
+  "bands": "latent 2.5 and 97.5 percentiles, no observation noise",
+  "prior_restriction": "conditional parameter box and peak zT <=3.5 on 16-point observation window",
+  "seconds": 22.837193965911865
+}

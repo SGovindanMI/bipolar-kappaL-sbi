@@ -1,0 +1,31 @@
+{
+  "completed": [
+    "spline/generate_train",
+    "spline/train",
+    "spline/generate_test",
+    "spline/generate_narrow",
+    "spline/infer_test",
+    "spline/diagnose_test",
+    "spline/infer_narrow",
+    "spline/diagnose_narrow",
+    "spline/infer_base_test",
+    "spline/diagnose_base_test",
+    "spline/infer_mobility_low",
+    "spline/diagnose_mobility_low",
+    "spline/infer_mobility_high",
+    "spline/diagnose_mobility_high",
+    "spline/infer_wide_upturn",
+    "spline/diagnose_wide_upturn",
+    "spline/infer_narrow_upturn",
+    "spline/diagnose_narrow_upturn",
+    "spline/infer_narrow_control",
+    "spline/diagnose_narrow_control",
+    "spline/infer_real",
+    "spline/analyse_real"
+  ],
+  "started": 1791479683.8244934,
+  "active": null,
+  "status": "complete",
+  "finished": 1791509224.39725,
+  "scientific_status": "Exploratory; review coverage, identifiability and prior sensitivity before manuscript claims"
+}

@@ -1,0 +1,120 @@
+"""Explicit masks, matched fractions, calibration diagnostics and corpus contrasts."""
+from pathlib import Path
+import json
+import warnings
+import numpy as np
+from . import temodel as tm
+from .analysis_stats import window_slope, interpolate, cluster_interval
+
+
+def clean(value):
+    if isinstance(value, dict):
+        return {k: clean(v) for k,v in value.items()}
+    if isinstance(value, (list,tuple)):
+        return [clean(v) for v in value]
+    if isinstance(value, np.ndarray):
+        return clean(value.tolist())
+    if isinstance(value, (np.integer,)):
+        return int(value)
+    if isinstance(value, (np.bool_,)):
+        return bool(value)
+    if isinstance(value, (float,np.floating)):
+        return float(value) if np.isfinite(value) else None
+    return value
+
+
+def save_json(path, value):
+    Path(path).write_text(json.dumps(clean(value), indent=2, allow_nan=False))
+
+
+def estimates(source, inference):
+    x=source['x'].astype(float);q=inference['quantiles'];T=inference['Tgrid']
+    sig=10**x[:,:16];kap=np.exp(x[:,32:48])
+    A=kap-tm.L_kim(x[:,16:32]*1e-6)*sig*T
+    B=kap-q[:,1,5]*sig*T;C=q[:,1,3];Cp=B-q[:,1,4]
+    extra=q[:,1,7] if q.shape[2]>7 else np.zeros_like(C)
+    curves=[A,B,C,Cp,Cp-extra]
+    e=np.stack([window_slope(T,y) for y in curves],axis=1)
+    return curves,e
+
+
+def diagnostics(source_path, inference_path, out):
+    source=np.load(source_path,allow_pickle=False);p=np.load(inference_path,allow_pickle=False)
+    truth=source['truth'].astype(float);q=p['quantiles'];s=p['scored'];a=p['admit'];T=p['Tgrid']
+    meta=json.loads(str(p['metadata']));sm=json.loads(str(source['metadata'])) if 'metadata' in source else {}
+    curves,e=estimates(source,p);t_slope=window_slope(T,truth[:,0])
+    result=dict(inference=meta,source=sm,n=len(s),scored=int(s.sum()),admitted=int(a.sum()),
+                denominator_definition='Coverage/error pooled across curve-temperature points within each stated mask')
+    for label,mask in [('scored',s),('admitted',a)]:
+        if not np.any(mask):
+            result[label]={"n":0};continue
+        r={'n':int(mask.sum()),'channels':{}}
+        for j,k,name in [(0,3,'lattice'),(1,4,'bipolar'),(2,5,'Luni'),(3,2,'total'),(4,7,'extra')]:
+            if j>=truth.shape[1] or k>=q.shape[2]:continue
+            y=truth[mask,j];pred=q[mask,1,k];err=pred-y
+            nonzero=y>1e-12
+            r['channels'][name]=dict(coverage=float(((y>=q[mask,0,k])&(y<=q[mask,2,k])).mean()),
+                median_signed_error=float(np.median(err)),median_absolute_error=float(np.median(abs(err))),
+                relative_error_threshold=1e-12,relative_error_points=int(nonzero.sum()),
+                median_signed_relative_error=float(np.median(err[nonzero]/y[nonzero])) if nonzero.any() else None,
+                median_absolute_relative_error=float(np.median(abs(err[nonzero]/y[nonzero]))) if nonzero.any() else None)
+        if meta.get('matching_parameter_truth'):
+            r['parameter_coverage']=dict(zip(meta['spec']['names'],p['parameter_cover'][mask].mean(0).tolist()))
+        fraction=truth[:,1,-1]/truth[:,3,-1]
+        eligible=mask&(fraction<.02)
+        false=eligible&(q[:,1,4,-1]/truth[:,3,-1]>.1)
+        r['false_assignment']=dict(numerator=int(false.sum()),denominator=int(eligible.sum()),definition='true bipolar/true total < .02; median inferred bipolar/true total > .1 at Thi')
+        r['slope']={}
+        for pop,m in [('all_span',mask&np.isfinite(t_slope)&np.isfinite(e[:,2])),
+                      ('positive_A',mask&np.isfinite(t_slope)&np.isfinite(e[:,0])&np.isfinite(e[:,2])),
+                      ('original_four',mask&np.isfinite(t_slope)&np.isfinite(e[:,:4]).all(1)),
+                      ('all_five',mask&np.isfinite(t_slope)&np.isfinite(e).all(1))]:
+            err=e[m,2]-t_slope[m]
+            r['slope'][pop]=dict(n=int(m.sum()),median_error=float(np.median(err)) if len(err) else None,
+                                 percentiles_10_25_75_90=np.percentile(err,[10,25,75,90]).tolist() if len(err) else [])
+        result[label]=r
+    result['bipolar_strata']=[]
+    frac=truth[:,1,-1]/truth[:,3,-1]
+    for lo,hi in [(0,.02),(.02,.1),(.1,.5),(.5,1.00001)]:
+        m=(frac>=lo)&(frac<hi)
+        result['bipolar_strata'].append(dict(lower=lo,upper=hi,n=int(m.sum()),scored=int((m&s).sum()),admitted=int((m&a).sum())))
+    result['true_lattice_upturn_fraction']=float(np.mean(truth[:,0,-1]>truth[:,0,8]))
+    if 'final_fractions' in p and s.any():
+        ff=p['final_fractions'][s]
+        with warnings.catch_warnings():
+            warnings.simplefilter('ignore',RuntimeWarning)
+            inferred=np.nanmedian(ff[:,:,1],axis=1)
+            result['matched_final_bipolar_fraction_bias']=float(np.nanmedian(inferred-frac[s]))
+    save_json(out,result)
+    return clean(result)
+
+
+def corpus(source_path, inference_path, baseline_path, out, n_boot=2000):
+    source=np.load(source_path,allow_pickle=True);p=np.load(inference_path);b=np.load(baseline_path)
+    _,e=estimates(source,p);_,eb=estimates(source,b);a=p['admit'];doi=source['doi'].astype(str)
+    native=a&np.isfinite(e).all(1)
+    common=native&b['admit']&np.isfinite(eb[:,:4]).all(1)
+    result=dict(metadata=json.loads(str(p['metadata'])),n=len(a),scored=int(p['scored'].sum()),admitted=int(a.sum()),
+                estimators=['A: Kim subtraction','B: unipolar posterior subtraction','C: model lattice',
+                            'Cprime_bip: B minus marginal median bipolar','Cprime_all: Cprime_bip minus marginal median extra'],
+                covariance_note='Medians do not add. Matched-draw fractions and nested comparisons are separate.',
+                selection_note='Native requires five finite slopes; common additionally requires baseline admission and four finite slopes')
+    for label,m in [('native',native),('common_baseline',common)]:
+        group=dict(n=int(m.sum()),papers=int(len(np.unique(doi[m]))),shifts={})
+        for key,i,j in [('C_A',2,0),('C_B',2,1),('Cprime_bip_A',3,0),('Cprime_all_A',4,0)]:
+            group['shifts'][key]=cluster_interval(e[:,i]-e[:,j],doi,m,n_boot)
+        group['change_C_slope_vs_baseline']=cluster_interval(e[:,2]-eb[:,2],doi,m&np.isfinite(eb[:,2]),n_boot)
+        result[label]=group
+    result['admission_overlap']=dict(both=int((a&b['admit']).sum()),new_only=int((a&~b['admit']).sum()),baseline_only=int((~a&b['admit']).sum()))
+    # Match sampled curve identities across repeats in a paper bootstrap, as in v5.
+    ids=np.flatnonzero(native);groups=[ids[doi[ids]==d] for d in np.unique(doi[ids])]
+    nested=[];rng=np.random.default_rng(6025)
+    for _ in range(n_boot if len(groups) else 0):
+        ix=np.concatenate([groups[g] for g in rng.integers(0,len(groups),len(groups))]);u,inv=np.unique(ix,return_inverse=True)
+        choice=np.array([rng.integers(0,p['nok'][i]) for i in u]);v=p['slope_draws'][u,choice][inv]
+        with warnings.catch_warnings():
+            warnings.simplefilter('ignore',RuntimeWarning);nested.append(np.nanmedian(v[:,2]-v[:,1]))
+    result['nested_C_B_interval']=np.nanquantile(nested,[.025,.5,.975]).tolist() if nested else []
+    np.savez_compressed(Path(out).with_suffix('.npz'),exponents=e,native=native,common=common,doi=doi)
+    save_json(out,result)
+    return clean(result)

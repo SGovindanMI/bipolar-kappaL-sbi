@@ -1,0 +1,736 @@
+{
+  "Power factor": {
+    "n": 8303,
+    "curves": 8406,
+    "median_difference": 0.0145724547273824,
+    "flag_n": 646
+  },
+  "ZT": {
+    "n": 11972,
+    "curves": 12126,
+    "median_difference": 0.02357879005035225,
+    "flag_n": 1185
+  },
+  "inventory": [
+    {
+      "property": "Seebeck coefficient",
+      "unit": "V*K^(-1)",
+      "samples": 13031,
+      "temperature_K_samples": 13031
+    },
+    {
+      "property": "Thermal conductivity",
+      "unit": "W*m^(-1)*K^(-1)",
+      "samples": 13031,
+      "temperature_K_samples": 13031
+    },
+    {
+      "property": "ZT",
+      "unit": "-",
+      "samples": 12031,
+      "temperature_K_samples": 12031
+    },
+    {
+      "property": "Electrical conductivity",
+      "unit": "ohm^(-1)*m^(-1)",
+      "samples": 8229,
+      "temperature_K_samples": 8229
+    },
+    {
+      "property": "Electrical resistivity",
+      "unit": "ohm*m",
+      "samples": 4826,
+      "temperature_K_samples": 4824
+    },
+    {
+      "property": "Power factor",
+      "unit": "W*m^(-1)*K^(-2)",
+      "samples": 8341,
+      "temperature_K_samples": 8341
+    },
+    {
+      "property": "Lattice thermal conductivity",
+      "unit": "W*m^(-1)*K^(-1)",
+      "samples": 4532,
+      "temperature_K_samples": 4514
+    },
+    {
+      "property": "Carrier concentration",
+      "unit": "m^(-3)",
+      "samples": 908,
+      "temperature_K_samples": 894
+    },
+    {
+      "property": "log(Electrical conductivity)",
+      "unit": "S*m^(-1)",
+      "samples": 0,
+      "temperature_K_samples": 0
+    },
+    {
+      "property": "Carrier mobility",
+      "unit": "m^2*V^(-1)*s^(-1)",
+      "samples": 714,
+      "temperature_K_samples": 700
+    },
+    {
+      "property": "Hall coefficient",
+      "unit": "m^3*C^(-1)",
+      "samples": 101,
+      "temperature_K_samples": 99
+    },
+    {
+      "property": "Voltage",
+      "unit": "V",
+      "samples": 0,
+      "temperature_K_samples": 0
+    },
+    {
+      "property": "Electronic thermal conductivity",
+      "unit": "W*m^(-1)*K^(-1)",
+      "samples": 487,
+      "temperature_K_samples": 487
+    },
+    {
+      "property": "thermopower",
+      "unit": "V*K^(-1)",
+      "samples": 0,
+      "temperature_K_samples": 0
+    },
+    {
+      "property": "Figure of merit Z",
+      "unit": "K^(-1)",
+      "samples": 109,
+      "temperature_K_samples": 109
+    },
+    {
+      "property": "Hall mobility",
+      "unit": "m^2*V^(-1)*s^(-1)",
+      "samples": 179,
+      "temperature_K_samples": 175
+    },
+    {
+      "property": "Discharge capacity",
+      "unit": "A*s/kg",
+      "samples": 0,
+      "temperature_K_samples": 0
+    },
+    {
+      "property": "log(Electrical resistivity)",
+      "unit": "ohm*m",
+      "samples": 0,
+      "temperature_K_samples": 0
+    },
+    {
+      "property": "ln(Electrical resistivity)",
+      "unit": "ohm*m",
+      "samples": 0,
+      "temperature_K_samples": 0
+    },
+    {
+      "property": "ln(Electrical conductivity)",
+      "unit": "S*m^(-1)",
+      "samples": 0,
+      "temperature_K_samples": 0
+    },
+    {
+      "property": "total thermal conductivity",
+      "unit": "W*m^(-1)*K^(-1)",
+      "samples": 0,
+      "temperature_K_samples": 0
+    },
+    {
+      "property": "Carrier thermal conductivity",
+      "unit": "W*m^(-1)*K^(-1)",
+      "samples": 78,
+      "temperature_K_samples": 78
+    },
+    {
+      "property": "electron thermal conductivity",
+      "unit": "W*m^(-1)*K^(-1)",
+      "samples": 46,
+      "temperature_K_samples": 46
+    },
+    {
+      "property": "S",
+      "unit": "V/K",
+      "samples": 0,
+      "temperature_K_samples": 0
+    },
+    {
+      "property": "Thermal diffusivity",
+      "unit": "m**2/s",
+      "samples": 16,
+      "temperature_K_samples": 16
+    },
+    {
+      "property": "Hall mobility",
+      "unit": "A*s**2/kg",
+      "samples": 20,
+      "temperature_K_samples": 12
+    },
+    {
+      "property": "Thermopower",
+      "unit": "kg*m**2/A/s**3",
+      "samples": 0,
+      "temperature_K_samples": 0
+    },
+    {
+      "property": "-",
+      "unit": "-",
+      "samples": 6,
+      "temperature_K_samples": 0
+    },
+    {
+      "property": "Magnetic susceptibility_per_weight",
+      "unit": "emu/g",
+      "samples": 0,
+      "temperature_K_samples": 0
+    },
+    {
+      "property": "log\u03c3T",
+      "unit": "S*m^(-1)*K",
+      "samples": 0,
+      "temperature_K_samples": 0
+    },
+    {
+      "property": "Resistance",
+      "unit": "ohm",
+      "samples": 0,
+      "temperature_K_samples": 0
+    },
+    {
+      "property": "Figure of merit",
+      "unit": "K^(-1)",
+      "samples": 11,
+      "temperature_K_samples": 11
+    },
+    {
+      "property": "Specific heat",
+      "unit": "J*mol^(-1)*K^(-2)",
+      "samples": 0,
+      "temperature_K_samples": 0
+    },
+    {
+      "property": "Lattice contribution",
+      "unit": "W*m^(-1)*K^(-1)",
+      "samples": 7,
+      "temperature_K_samples": 7
+    },
+    {
+      "property": "phonon thermal conductance",
+      "unit": "W*m^(-1)*K^(-1)",
+      "samples": 14,
+      "temperature_K_samples": 14
+    },
+    {
+      "property": "log(Electrical resistivity)",
+      "unit": "kg*m**3/A**2/s**3",
+      "samples": 0,
+      "temperature_K_samples": 0
+    },
+    {
+      "property": "Electronic contribution",
+      "unit": "W*m^(-1)*K^(-1)",
+      "samples": 9,
+      "temperature_K_samples": 9
+    },
+    {
+      "property": "magnetization_per_weight",
+      "unit": "emu*g^(-1)",
+      "samples": 0,
+      "temperature_K_samples": 0
+    },
+    {
+      "property": "magnetic susceptibility",
+      "unit": "A*m**2/mol",
+      "samples": 0,
+      "temperature_K_samples": 0
+    },
+    {
+      "property": "Temperature",
+      "unit": "K",
+      "samples": 0,
+      "temperature_K_samples": 0
+    },
+    {
+      "property": "Mobility",
+      "unit": "A*s**3/kg",
+      "samples": 0,
+      "temperature_K_samples": 0
+    },
+    {
+      "property": "hall density",
+      "unit": "1/m**3",
+      "samples": 14,
+      "temperature_K_samples": 14
+    },
+    {
+      "property": "RH",
+      "unit": "ohm*m*T^(-1)",
+      "samples": 0,
+      "temperature_K_samples": 0
+    },
+    {
+      "property": "Magnetic susceptibility_per mol",
+      "unit": "A*m**2/mol",
+      "samples": 0,
+      "temperature_K_samples": 0
+    },
+    {
+      "property": "Conductivity",
+      "unit": "S/m",
+      "samples": 0,
+      "temperature_K_samples": 0
+    },
+    {
+      "property": "Thermoelectric power",
+      "unit": "V*K^(-1)",
+      "samples": 0,
+      "temperature_K_samples": 0
+    },
+    {
+      "property": "Log(row)",
+      "unit": "ohm*m",
+      "samples": 0,
+      "temperature_K_samples": 0
+    },
+    {
+      "property": "Thermoelectric voltage",
+      "unit": "V",
+      "samples": 0,
+      "temperature_K_samples": 0
+    },
+    {
+      "property": "Resistivity",
+      "unit": "ohm*m^-1",
+      "samples": 0,
+      "temperature_K_samples": 0
+    },
+    {
+      "property": "Lattice+bipolar thermal conductivity",
+      "unit": "W*m^(-1)*K^(-1)",
+      "samples": 12,
+      "temperature_K_samples": 12
+    },
+    {
+      "property": "Dielectric permittivity (\u03b5\u2019)",
+      "unit": "-",
+      "samples": 0,
+      "temperature_K_samples": 0
+    },
+    {
+      "property": "Hall concentration",
+      "unit": "m**3",
+      "samples": 5,
+      "temperature_K_samples": 5
+    },
+    {
+      "property": "ln\u03c3T",
+      "unit": "A**2*s**3*K/kg/m**3",
+      "samples": 0,
+      "temperature_K_samples": 0
+    },
+    {
+      "property": "Max Efficiency",
+      "unit": "-",
+      "samples": 3,
+      "temperature_K_samples": 3
+    },
+    {
+      "property": "Current",
+      "unit": "-",
+      "samples": 0,
+      "temperature_K_samples": 0
+    },
+    {
+      "property": "Electro Motive Force",
+      "unit": "kg*m**2/A/s**3",
+      "samples": 0,
+      "temperature_K_samples": 0
+    },
+    {
+      "property": "S/L0T",
+      "unit": "V^(-1)",
+      "samples": 0,
+      "temperature_K_samples": 0
+    },
+    {
+      "property": "TEP",
+      "unit": "V/K",
+      "samples": 0,
+      "temperature_K_samples": 0
+    },
+    {
+      "property": "Open circuit voltage ",
+      "unit": "V",
+      "samples": 0,
+      "temperature_K_samples": 0
+    },
+    {
+      "property": "delta T",
+      "unit": "-",
+      "samples": 0,
+      "temperature_K_samples": 0
+    },
+    {
+      "property": "Coercivity Field",
+      "unit": "A/m",
+      "samples": 0,
+      "temperature_K_samples": 0
+    },
+    {
+      "property": "\u03c3T",
+      "unit": "A**2*s**3*K/kg/m**3",
+      "samples": 0,
+      "temperature_K_samples": 0
+    },
+    {
+      "property": "phonon contribution",
+      "unit": "W*m^(-1)*K^(-1)",
+      "samples": 5,
+      "temperature_K_samples": 5
+    },
+    {
+      "property": "Dielectric loss (tan\u03b4)",
+      "unit": "-",
+      "samples": 0,
+      "temperature_K_samples": 0
+    },
+    {
+      "property": "Contact resistivity",
+      "unit": "ohm*m^2",
+      "samples": 0,
+      "temperature_K_samples": 0
+    },
+    {
+      "property": "Specific heat capacity (J/gK)",
+      "unit": "-",
+      "samples": 6,
+      "temperature_K_samples": 6
+    },
+    {
+      "property": "ln(T/\u03c1)",
+      "unit": "-",
+      "samples": 0,
+      "temperature_K_samples": 0
+    },
+    {
+      "property": "Seebeck  coefficient ",
+      "unit": "V",
+      "samples": 0,
+      "temperature_K_samples": 0
+    },
+    {
+      "property": "Calculated Seebeck coefficient",
+      "unit": "V/K",
+      "samples": 0,
+      "temperature_K_samples": 0
+    },
+    {
+      "property": "Electrical conductivity0",
+      "unit": "A**2*s**2/kg/m**2",
+      "samples": 0,
+      "temperature_K_samples": 0
+    },
+    {
+      "property": "Nernst coefficient",
+      "unit": "m**2/s/K",
+      "samples": 0,
+      "temperature_K_samples": 0
+    },
+    {
+      "property": "Lorenz values",
+      "unit": "-",
+      "samples": 0,
+      "temperature_K_samples": 0
+    },
+    {
+      "property": "Density",
+      "unit": "kg*m**3",
+      "samples": 3,
+      "temperature_K_samples": 3
+    },
+    {
+      "property": "Micro Volts",
+      "unit": "V",
+      "samples": 0,
+      "temperature_K_samples": 0
+    },
+    {
+      "property": "Lorenz number",
+      "unit": "V^2*K^-2",
+      "samples": 4,
+      "temperature_K_samples": 4
+    },
+    {
+      "property": "Current density",
+      "unit": "A/m**2",
+      "samples": 0,
+      "temperature_K_samples": 0
+    },
+    {
+      "property": "minority carrier concentration",
+      "unit": "1/m**3",
+      "samples": 0,
+      "temperature_K_samples": 0
+    },
+    {
+      "property": "magnetoresistance",
+      "unit": "-",
+      "samples": 0,
+      "temperature_K_samples": 0
+    },
+    {
+      "property": "majority carrier concentration",
+      "unit": "1/m**3",
+      "samples": 0,
+      "temperature_K_samples": 0
+    },
+    {
+      "property": "\u03c1",
+      "unit": "kg",
+      "samples": 0,
+      "temperature_K_samples": 0
+    },
+    {
+      "property": "inverse magnetic susceptibility_mol",
+      "unit": "mol/A/m**2",
+      "samples": 0,
+      "temperature_K_samples": 0
+    },
+    {
+      "property": "hierarchy of energies of cluster models",
+      "unit": "m**2*kg/s**2",
+      "samples": 0,
+      "temperature_K_samples": 0
+    },
+    {
+      "property": "log(sigma)",
+      "unit": "A**2*s**3/kg/m**3",
+      "samples": 0,
+      "temperature_K_samples": 0
+    },
+    {
+      "property": "T^(-1)",
+      "unit": "K^(-1)",
+      "samples": 0,
+      "temperature_K_samples": 0
+    },
+    {
+      "property": "Fermi energy",
+      "unit": "m",
+      "samples": 0,
+      "temperature_K_samples": 0
+    },
+    {
+      "property": "Figure of merit Zt",
+      "unit": "K^(-1)",
+      "samples": 3,
+      "temperature_K_samples": 3
+    },
+    {
+      "property": "Inverse magnetic susceptibility",
+      "unit": "emu^(-1)*g",
+      "samples": 0,
+      "temperature_K_samples": 0
+    },
+    {
+      "property": "Phonon transmission function",
+      "unit": "kg*m**2/s**3/K",
+      "samples": 0,
+      "temperature_K_samples": 0
+    },
+    {
+      "property": "Surface Conductivity",
+      "unit": "ohm^(-1)",
+      "samples": 0,
+      "temperature_K_samples": 0
+    },
+    {
+      "property": "Electrical thermal conductivity",
+      "unit": "W*m^(-1)*K^(-1)",
+      "samples": 0,
+      "temperature_K_samples": 0
+    },
+    {
+      "property": "Conversion Voltage",
+      "unit": "kg*m**2/A/s**3",
+      "samples": 0,
+      "temperature_K_samples": 0
+    },
+    {
+      "property": "Sab",
+      "unit": "V/K",
+      "samples": 0,
+      "temperature_K_samples": 0
+    },
+    {
+      "property": "conductivity",
+      "unit": "-",
+      "samples": 0,
+      "temperature_K_samples": 0
+    },
+    {
+      "property": "Electric current",
+      "unit": "A",
+      "samples": 0,
+      "temperature_K_samples": 0
+    },
+    {
+      "property": "Linewidth",
+      "unit": "m**2*kg/s**2",
+      "samples": 0,
+      "temperature_K_samples": 0
+    },
+    {
+      "property": "Carrier Density n",
+      "unit": "1/m**3",
+      "samples": 0,
+      "temperature_K_samples": 0
+    },
+    {
+      "property": "--",
+      "unit": "-",
+      "samples": 0,
+      "temperature_K_samples": 0
+    },
+    {
+      "property": "Thermo gravimetry",
+      "unit": "-",
+      "samples": 0,
+      "temperature_K_samples": 0
+    },
+    {
+      "property": "Thermal expansion",
+      "unit": "-",
+      "samples": 0,
+      "temperature_K_samples": 0
+    },
+    {
+      "property": "Power/frequency",
+      "unit": "-",
+      "samples": 0,
+      "temperature_K_samples": 0
+    },
+    {
+      "property": "Specific heat capacity",
+      "unit": "J*mol^(-1)*K^(-1)",
+      "samples": 0,
+      "temperature_K_samples": 0
+    },
+    {
+      "property": "Figure of merit Z 1000",
+      "unit": "K^(-1)",
+      "samples": 0,
+      "temperature_K_samples": 0
+    },
+    {
+      "property": "Conversion voltage",
+      "unit": "kg*m**2/A/s**3",
+      "samples": 0,
+      "temperature_K_samples": 0
+    },
+    {
+      "property": "Normalised PL Integrated Intensity",
+      "unit": "-",
+      "samples": 0,
+      "temperature_K_samples": 0
+    },
+    {
+      "property": "Maximum output power",
+      "unit": "-",
+      "samples": 0,
+      "temperature_K_samples": 0
+    },
+    {
+      "property": "Luminescence lifetime",
+      "unit": "-",
+      "samples": 0,
+      "temperature_K_samples": 0
+    },
+    {
+      "property": "Hall effect",
+      "unit": "-",
+      "samples": 0,
+      "temperature_K_samples": 0
+    },
+    {
+      "property": "Short-circuit current",
+      "unit": "-",
+      "samples": 0,
+      "temperature_K_samples": 0
+    },
+    {
+      "property": "Seebeck coefficient at 550 K",
+      "unit": "m**2*kg/A/s**3/K",
+      "samples": 0,
+      "temperature_K_samples": 0
+    },
+    {
+      "property": "Thickness",
+      "unit": "m",
+      "samples": 0,
+      "temperature_K_samples": 0
+    },
+    {
+      "property": "Temperture Difference",
+      "unit": "K",
+      "samples": 0,
+      "temperature_K_samples": 0
+    },
+    {
+      "property": "absorbance",
+      "unit": "-",
+      "samples": 0,
+      "temperature_K_samples": 0
+    },
+    {
+      "property": "Voltage response",
+      "unit": "V",
+      "samples": 0,
+      "temperature_K_samples": 0
+    },
+    {
+      "property": "conductance",
+      "unit": "S",
+      "samples": 0,
+      "temperature_K_samples": 0
+    },
+    {
+      "property": "latice contribution",
+      "unit": "W*m^(-1)*K^(-1)",
+      "samples": 0,
+      "temperature_K_samples": 0
+    },
+    {
+      "property": "lattice thermal conductance",
+      "unit": "-",
+      "samples": 0,
+      "temperature_K_samples": 0
+    },
+    {
+      "property": "ln(Hall coefficient)",
+      "unit": "m",
+      "samples": 0,
+      "temperature_K_samples": 0
+    },
+    {
+      "property": "mol %",
+      "unit": "-",
+      "samples": 0,
+      "temperature_K_samples": 0
+    },
+    {
+      "property": "zero-B thermopower",
+      "unit": "m**2*kg/A/s**3/K",
+      "samples": 0,
+      "temperature_K_samples": 0
+    }
+  ],
+  "definitions": {
+    "threshold": 0.2,
+    "minimum_overlap_points": 5,
+    "statistic": "Best-candidate per-sample median symmetric relative difference",
+    "note": "Derived-data consistency, not independent validation or a measurement error diagnosis."
+  }
+}

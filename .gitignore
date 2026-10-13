@@ -1,0 +1,20 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+curves.pkl
+_fermi_tab.npz
+train_*.npz
+*.pdf.bak
+.DS_Store
+ThermoelectricMaterials_curves.csv
+starrydata_curves.csv
+data/draw_exponents.npz
+
+work/
+.pytest_cache/
+curves.pkl.json
+
+# Large scientific arrays are supplied separately; small verification fixtures remain tracked.
+runs/**/*.npz
+!runs/v6_main/publication/family_comparison_masks.npz
+combined/manuscript/rendered/

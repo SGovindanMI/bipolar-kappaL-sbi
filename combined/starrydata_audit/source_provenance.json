@@ -1,0 +1,36 @@
+{
+  "files": [
+    {
+      "local_name": "manifest.json",
+      "url": "https://github.com/starrydata/starrydata_datasets/releases/download/data-20261008/manifest.json",
+      "sha256": "a39618b08941cb5e0fe08c25eacf6b0d319b667ae295af7d2b22c8564a43e973"
+    },
+    {
+      "local_name": "ThermoelectricMaterials_curves.csv.gz",
+      "url": "https://github.com/starrydata/starrydata_datasets/releases/download/data-20261008/ThermoelectricMaterials_curves.csv.gz",
+      "sha256": "6161dfea0201526e998a877be0ed767cccd9c112b204cf752834ca72359d86fc"
+    },
+    {
+      "local_name": "ThermoelectricMaterials_samples.csv.gz",
+      "url": "https://github.com/starrydata/starrydata_datasets/releases/download/data-20261008/ThermoelectricMaterials_samples.csv.gz",
+      "sha256": "3cd0b85e441be64dd0b8d7a4e293f86b0ba16cb08307d824401922c37e87b625"
+    },
+    {
+      "local_name": "ThermoelectricMaterials_papers.csv.gz",
+      "url": "https://github.com/starrydata/starrydata_datasets/releases/download/data-20261008/ThermoelectricMaterials_papers.csv.gz",
+      "sha256": "74a7c651b3fd39100df7f5589c089bf893a97798d5e6d0bee651505939dab9dd"
+    },
+    {
+      "local_name": "data-20260715_manifest.json",
+      "url": "https://github.com/starrydata/starrydata_datasets/releases/download/data-20260715/manifest.json",
+      "sha256": "b52f002f861168678be4cbd3bcc753df2e718994b32349b257521602b052b16a"
+    },
+    {
+      "local_name": "historical_20260715_curves.csv.gz",
+      "url": "https://github.com/starrydata/starrydata_datasets/releases/download/data-20260715/ThermoelectricMaterials_curves.csv.gz",
+      "sha256": "62ef5e26bd45875c66b1c8e1f906764cb282da568dac56d71b4cd6897325205e"
+    }
+  ],
+  "current_db_snapshot": "2026-10-09 02:00:01 UTC+0900 (JST)",
+  "historical_caveat": "This is not established as the original snapshot; counts differ from legacy documentation."
+}

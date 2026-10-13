@@ -1,0 +1,102 @@
+{
+  "db_snapshot": "2026-10-09 02:00:01 UTC+0900 (JST)",
+  "source_hashes": {
+    "ThermoelectricMaterials_papers.csv.gz": "74a7c651b3fd39100df7f5589c089bf893a97798d5e6d0bee651505939dab9dd",
+    "ThermoelectricMaterials_samples.csv.gz": "3cd0b85e441be64dd0b8d7a4e293f86b0ba16cb08307d824401922c37e87b625",
+    "ThermoelectricMaterials_curves.csv.gz": "6161dfea0201526e998a877be0ed767cccd9c112b204cf752834ca72359d86fc"
+  },
+  "corpus_sha256": "ce0b0307d2478eabf7a1b22839f1cbc181e28fddd3c8d68b784038037c6d9256",
+  "export_counts": {
+    "papers": 9523,
+    "samples": 55484,
+    "curves": 157066
+  },
+  "frozen_samples": 13031,
+  "frozen_papers": 2715,
+  "duplicate_frozen_keys": 0,
+  "duplicate_feature_rows": 1,
+  "sample_ids_crossing_papers_in_current_export": 0,
+  "frozen_keys_missing_current_export": 0,
+  "thresholds": {
+    "sigma_kappa_max_relative": 0.01,
+    "sigma_absolute_floor_S_per_m": 0.001,
+    "S_max_absolute_uV_per_K": 1.0,
+    "endpoint_rounding_K": 0.0001
+  },
+  "rejected_canonical_rows": {
+    "short_or_shape": 355,
+    "conflicting_duplicate_temperature": 28
+  },
+  "verified_inputs": 13031,
+  "first_curves_match": 13031,
+  "population": {
+    "frozen": {
+      "n": 13031,
+      "verified": 13031,
+      "unverified": 0
+    },
+    "reference_admitted": {
+      "n": 7251,
+      "verified": 7251,
+      "unverified": 0
+    },
+    "six_model_common": {
+      "n": 1507,
+      "verified": 1507,
+      "unverified": 0
+    },
+    "verified_inputs": {
+      "n": 13031,
+      "verified": 13031,
+      "unverified": 0
+    }
+  },
+  "metadata_field_nonempty_sample_counts": {
+    "Form": 7707,
+    "FabricationProcess": 4737,
+    "DataType": 10348,
+    "ThermalMeasurement": 4187,
+    "ElectricalMeasurement": 4222,
+    "MaterialFamily": 6304,
+    "Purity": 1191,
+    "RelativeDensity": 953,
+    "GrainSize": 257,
+    "Relative density": 13,
+    "Material family": 2,
+    "Note": 1,
+    "Material Family": 13,
+    "MaterialFarmily": 1,
+    "Measurement axis": 1,
+    "Composition conversion": 2,
+    "AC/QC type": 28,
+    "composition type": 10,
+    "sample info": 13,
+    "annealing condition": 15,
+    "other sample process info": 14,
+    "measurement condition": 3,
+    "comment": 4,
+    "Other": 1,
+    "laser flash and different thermal analyzer": 1,
+    "Differential thermal analyzer": 3,
+    "LaserFlash": 16,
+    "DifferentialThermalAnalyzer": 18,
+    "FabricationProcess 2": 196,
+    "FabricationProcess 3": 8
+  },
+  "derived_consistency": {
+    "Power factor": {
+      "curves": 8406,
+      "samples": 8303,
+      "best_curve_median_difference_median": 0.0145724547273824,
+      "all_candidates_median_difference_gt_20pct_samples": 646,
+      "note": "20% is a descriptive flag, not an exclusion or error diagnosis; best candidate minimizes difference."
+    },
+    "ZT": {
+      "curves": 12126,
+      "samples": 11972,
+      "best_curve_median_difference_median": 0.023578790050352322,
+      "all_candidates_median_difference_gt_20pct_samples": 1185,
+      "note": "20% is a descriptive flag, not an exclusion or error diagnosis; best candidate minimizes difference."
+    }
+  }
+}

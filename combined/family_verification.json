@@ -1,0 +1,11 @@
+{
+  "recomputed_interval_triplets": 60,
+  "bootstrap_resamples": 2000,
+  "seed": 2024,
+  "common_curves": 1507,
+  "common_papers": 640,
+  "named_groups_reported": 4,
+  "residual_groups_reported": 1,
+  "below_threshold_labels": 9,
+  "selection_and_CSV_checks": "passed"
+}

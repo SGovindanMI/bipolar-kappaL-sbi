@@ -1,0 +1,17 @@
+{
+  "main": {
+    "original_content_preserved": true,
+    "citation_fields_preserved": true,
+    "sensitivity_text_checked": true
+  },
+  "supp": {
+    "original_content_preserved": true,
+    "citation_fields_preserved": true,
+    "sensitivity_text_checked": true
+  },
+  "masks": {
+    "common": 1507,
+    "fixed_subset": 1361,
+    "native_masks_checked": 6
+  }
+}

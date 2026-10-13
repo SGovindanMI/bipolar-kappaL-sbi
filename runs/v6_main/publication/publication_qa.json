@@ -1,0 +1,49 @@
+{
+  "manuscript_publication": {
+    "pages": 9,
+    "figures": [
+      {
+        "pixels": [
+          4260,
+          1680
+        ],
+        "embedded_width_inches": 6.496062992125984,
+        "effective_dpi": 655.7818181818182
+      },
+      {
+        "pixels": [
+          4260,
+          1680
+        ],
+        "embedded_width_inches": 6.496062992125984,
+        "effective_dpi": 655.7818181818182
+      },
+      {
+        "pixels": [
+          4260,
+          1560
+        ],
+        "embedded_width_inches": 6.496062992125984,
+        "effective_dpi": 655.7818181818182
+      },
+      {
+        "pixels": [
+          4260,
+          1680
+        ],
+        "embedded_width_inches": 6.496062992125984,
+        "effective_dpi": 655.7818181818182
+      }
+    ],
+    "native_equations": 11,
+    "tables": 0,
+    "words_pdf": 4079
+  },
+  "supplementary_information": {
+    "pages": 3,
+    "figures": [],
+    "native_equations": 0,
+    "tables": 8,
+    "words_pdf": 698
+  }
+}

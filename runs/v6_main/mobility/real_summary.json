@@ -1,0 +1,179 @@
+{
+  "metadata": {
+    "model_version": "6.0.1-research",
+    "spec": {
+      "version": "6.0.1-research",
+      "variant": "mobility",
+      "names": [
+        "log10N_net",
+        "log10m_maj",
+        "log10m_min",
+        "log10mu300",
+        "p_mu",
+        "log10Eg",
+        "log10A",
+        "w",
+        "r",
+        "kmin",
+        "log10mobility_ratio",
+        "p_mu_min",
+        "r_min"
+      ],
+      "lower": [
+        16.0,
+        -1.3,
+        -1.7,
+        null,
+        -3.5,
+        -1.5,
+        -1.0,
+        0.0,
+        -1.0,
+        0.0,
+        -1.0,
+        -3.5,
+        -1.0
+      ],
+      "upper": [
+        21.0,
+        0.7,
+        1.0,
+        null,
+        2.0,
+        0.55,
+        1.2,
+        3.0,
+        2.0,
+        0.7,
+        1.0,
+        2.0,
+        2.0
+      ],
+      "conditional_mu": "3.1 - 0.5*(log10N_net-17) + Uniform(-1.8,1.2)",
+      "spline_knots": null,
+      "spline_limits": null,
+      "spline": null,
+      "extra": null,
+      "noise": 0.02,
+      "zT_max": 3.5
+    },
+    "checkpoint_sha256": "35623ae6c9ef2ade139c212995b18b1e250465a269c9a181ddac69cbe4a9a3d0",
+    "source_sha256": "df340f5bb99680dff990902b06adfaaafd8818f011ba1dd910579924b3369275",
+    "channels": [
+      "sigma",
+      "S_uVK",
+      "kappa",
+      "kappa_L",
+      "kappa_bip",
+      "Luni",
+      "kappa_e",
+      "kappa_extra"
+    ],
+    "slope_names": [
+      "A",
+      "B",
+      "C",
+      "Cprime_bip",
+      "Cprime_all"
+    ],
+    "final_fraction_channels": [
+      "lattice",
+      "bipolar",
+      "extra"
+    ],
+    "matching_parameter_truth": false,
+    "seed": 6105,
+    "draws": 128,
+    "budget": 8192,
+    "batch": 32,
+    "min_draws": 64,
+    "admission_threshold": 0.75,
+    "bands": "latent 2.5 and 97.5 percentiles, no observation noise",
+    "prior_restriction": "conditional parameter box and peak zT <=3.5 on 16-point observation window",
+    "seconds": 26579.42837524414
+  },
+  "n": 13031,
+  "scored": 11043,
+  "admitted": 9440,
+  "estimators": [
+    "A: Kim subtraction",
+    "B: unipolar posterior subtraction",
+    "C: model lattice",
+    "Cprime_bip: B minus marginal median bipolar",
+    "Cprime_all: Cprime_bip minus marginal median extra"
+  ],
+  "covariance_note": "Medians do not add. Matched-draw fractions and nested comparisons are separate.",
+  "selection_note": "Native requires five finite slopes; common additionally requires baseline admission and four finite slopes",
+  "native": {
+    "n": 5292,
+    "papers": 1385,
+    "shifts": {
+      "C_A": [
+        -0.23679313705119442,
+        -0.24948178208549565,
+        -0.22351458623346832
+      ],
+      "C_B": [
+        -0.20906665469805644,
+        -0.22394240248846678,
+        -0.1942649355884538
+      ],
+      "Cprime_bip_A": [
+        -0.2986967311931872,
+        -0.32860934217475357,
+        -0.2669900873935849
+      ],
+      "Cprime_all_A": [
+        -0.2986967311931872,
+        -0.32860934217475357,
+        -0.2669900873935849
+      ]
+    },
+    "change_C_slope_vs_baseline": [
+      -0.03211252125900858,
+      -0.03766874644847279,
+      -0.027416398577952222
+    ]
+  },
+  "common_baseline": {
+    "n": 3867,
+    "papers": 1122,
+    "shifts": {
+      "C_A": [
+        -0.23519841998026203,
+        -0.249337380054514,
+        -0.21905317057151152
+      ],
+      "C_B": [
+        -0.20667498188176886,
+        -0.2216475298916457,
+        -0.18999913088347634
+      ],
+      "Cprime_bip_A": [
+        -0.2712512566662888,
+        -0.3071535323116704,
+        -0.24097830806140877
+      ],
+      "Cprime_all_A": [
+        -0.2712512566662888,
+        -0.3071535323116704,
+        -0.24097830806140877
+      ]
+    },
+    "change_C_slope_vs_baseline": [
+      -0.0370074285407363,
+      -0.04248416989311337,
+      -0.031057228279080654
+    ]
+  },
+  "admission_overlap": {
+    "both": 6811,
+    "new_only": 2629,
+    "baseline_only": 440
+  },
+  "nested_C_B_interval": [
+    -0.21203719526529313,
+    -0.19425565749406815,
+    -0.17630850076675417
+  ]
+}

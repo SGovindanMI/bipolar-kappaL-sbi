@@ -1,0 +1,86 @@
+{
+  "combined_manuscript": {
+    "image_count": 7,
+    "images": [
+      {
+        "pixels": [
+          4321,
+          1629
+        ],
+        "effective_dpi": 689.063122923588
+      },
+      {
+        "pixels": [
+          4321,
+          3093
+        ],
+        "effective_dpi": 689.063122923588
+      },
+      {
+        "pixels": [
+          4321,
+          1912
+        ],
+        "effective_dpi": 689.063122923588
+      },
+      {
+        "pixels": [
+          4321,
+          1629
+        ],
+        "effective_dpi": 689.063122923588
+      },
+      {
+        "pixels": [
+          4321,
+          1735
+        ],
+        "effective_dpi": 689.063122923588
+      },
+      {
+        "pixels": [
+          4296,
+          2250
+        ],
+        "effective_dpi": 685.0764119601329
+      },
+      {
+        "pixels": [
+          4329,
+          2586
+        ],
+        "effective_dpi": 690.3388704318937
+      }
+    ],
+    "native_equations": 114,
+    "tables": 2,
+    "docx_sha256": "e7f6504424c456d60c611a6aeda5dc5dddc015eaabd9d582f26f6cf4b9a1f301",
+    "pages": 32,
+    "pdf_sha256": "4e81fd2b431fca594bc4f6d0846028adb172383413de1c3cec2c9b6a45d9dd9d"
+  },
+  "combined_supplementary_information": {
+    "image_count": 1,
+    "images": [
+      {
+        "pixels": [
+          4260,
+          1680
+        ],
+        "effective_dpi": 679.3355481727575
+      }
+    ],
+    "native_equations": 30,
+    "tables": 36,
+    "docx_sha256": "43f66b72c4113bed2b5bf498360ef1beb392ea6bff3975c1de153a89e29090df",
+    "pages": 19,
+    "pdf_sha256": "0ed58f99e855249b555a8565229d6e249176dde9537a09b6174a5cccb70bf745"
+  },
+  "checks": {
+    "all_table_and_figure_captions_present": true,
+    "implementation_history_removed": true,
+    "separate_supplementary_information": true,
+    "reference_selected_epoch_one_based": 890,
+    "main_display_items": 9,
+    "visual_review": "Contact sheets reviewed; additions and final pages inspected individually. Original dense SI layout retained."
+  }
+}

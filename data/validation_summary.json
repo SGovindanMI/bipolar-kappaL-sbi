@@ -1,0 +1,152 @@
+{
+  "ellipsoid": {
+    "levels": [
+      0.5,
+      0.9,
+      0.95,
+      0.99
+    ],
+    "raw_test_coverage": [
+      0.5768333333333333,
+      0.8905,
+      0.9333333333333333,
+      0.9688333333333333
+    ],
+    "diagnostic_rank_map_test_coverage": [
+      0.502,
+      0.8995,
+      0.9518333333333333,
+      0.9916666666666667
+    ],
+    "calibration_thresholds": [
+      8.479697227478027,
+      16.41478672027588,
+      20.464968681335453,
+      35.3517850494385
+    ],
+    "note": "Rank map is diagnostic only; it is not applied to the constrained sampler."
+  },
+  "test_v5": {
+    "n": 6000,
+    "scored": 5996,
+    "admitted": 5850,
+    "parameter_95_coverage_on_scored": [
+      0.8535690460306872,
+      0.8522348232154769,
+      0.8443962641761175,
+      0.8529019346230821,
+      0.9054369579719813,
+      0.8912608405603736,
+      0.8992661774516344,
+      0.8780853902601734,
+      0.8925950633755837,
+      0.8749166110740494
+    ],
+    "derived_95_pointwise_coverage_on_scored": {
+      "kappa_L": 0.9420446964643095,
+      "kappa_bip": 0.9315689626417611,
+      "L_uni": 0.8932621747831888,
+      "kappa_total": 0.9870851400933957
+    },
+    "derived_median_relative_error_on_scored": {
+      "kappa_L": -0.005427987225005292,
+      "kappa_bip": 1.6140244917036385e-06,
+      "L_uni": -0.0027237219389695012,
+      "kappa_total": -0.003480521138852587
+    }
+  },
+  "stress_lattice_upturn": {
+    "n": 1000,
+    "scored": 217,
+    "admitted": 162,
+    "parameter_95_coverage_on_scored": [
+      0.8294930875576036,
+      0.8018433179723502,
+      0.8018433179723502,
+      0.8248847926267281,
+      0.815668202764977,
+      0.5668202764976958,
+      0.8248847926267281,
+      0.0,
+      0.7880184331797235,
+      0.8525345622119815
+    ],
+    "derived_95_pointwise_coverage_on_scored": {
+      "kappa_L": 0.40725806451612906,
+      "kappa_bip": 0.532258064516129,
+      "L_uni": 0.7727534562211982,
+      "kappa_total": 0.728110599078341
+    },
+    "derived_median_relative_error_on_scored": {
+      "kappa_L": -0.2495258894483609,
+      "kappa_bip": 3802.052116027845,
+      "L_uni": 0.0004110104177344743,
+      "kappa_total": -0.11904659278939925
+    },
+    "false_bipolar_assignment": {
+      "definition": "True bipolar heat below 2% and inferred median above 10% of true total at Thi; genuine lattice upturn generated outside fitted prior",
+      "eligible_scored": 214,
+      "false_scored": 13,
+      "eligible_admitted": 160,
+      "false_admitted": 12
+    }
+  },
+  "stress_mobility_low": {
+    "n": 1000,
+    "scored": 841,
+    "admitted": 765,
+    "parameter_95_coverage_on_scored": [
+      0.7455410225921522,
+      0.7384066587395958,
+      0.6492271105826397,
+      0.7491082045184304,
+      0.6444708680142688,
+      0.7621878715814506,
+      0.8656361474435196,
+      0.8525564803804994,
+      0.6813317479191439,
+      0.8561236623067776
+    ],
+    "derived_95_pointwise_coverage_on_scored": {
+      "kappa_L": 0.9092598097502973,
+      "kappa_bip": 0.7355826397146255,
+      "L_uni": 0.6908442330558858,
+      "kappa_total": 0.9610582639714625
+    },
+    "derived_median_relative_error_on_scored": {
+      "kappa_L": -0.011915271142385709,
+      "kappa_bip": 0.3793699367710226,
+      "L_uni": -0.0221772158145326,
+      "kappa_total": -0.0052827115265050885
+    }
+  },
+  "stress_mobility_high": {
+    "n": 1000,
+    "scored": 696,
+    "admitted": 595,
+    "parameter_95_coverage_on_scored": [
+      0.764367816091954,
+      0.7614942528735632,
+      0.617816091954023,
+      0.757183908045977,
+      0.7112068965517241,
+      0.6637931034482759,
+      0.8160919540229885,
+      0.8520114942528736,
+      0.6853448275862069,
+      0.8620689655172413
+    ],
+    "derived_95_pointwise_coverage_on_scored": {
+      "kappa_L": 0.8956537356321839,
+      "kappa_bip": 0.7147988505747126,
+      "L_uni": 0.6801364942528736,
+      "kappa_total": 0.9388469827586207
+    },
+    "derived_median_relative_error_on_scored": {
+      "kappa_L": -0.007236953157861655,
+      "kappa_bip": 0.12489754297722547,
+      "L_uni": -0.009019636634815163,
+      "kappa_total": -0.0018072044655419455
+    }
+  }
+}

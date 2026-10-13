@@ -1,0 +1,48 @@
+{
+  "seed": 4001,
+  "requested": 512,
+  "complete_256": 509,
+  "note": "Nested prefixes of the same retained draws, restricted to test cases yielding all 256; this is a Monte Carlo check, not proof of posterior calibration.",
+  "64": {
+    "pointwise_95_coverage": {
+      "kappa_L": 0.9356581532416502,
+      "kappa_bip": 0.9047151277013753,
+      "L_uni": 0.8741404715127702,
+      "kappa_total": 0.9857563850687623
+    },
+    "median_absolute_difference_from_256": {
+      "kappa_L": 0.0054128443976671214,
+      "kappa_bip": 0.00012974209759993545,
+      "L_uni": 1.0562116670672922e-10,
+      "kappa_total": 0.0069234578341350606
+    }
+  },
+  "128": {
+    "pointwise_95_coverage": {
+      "kappa_L": 0.943516699410609,
+      "kappa_bip": 0.9176080550098232,
+      "L_uni": 0.9017681728880157,
+      "kappa_total": 0.987721021611002
+    },
+    "median_absolute_difference_from_256": {
+      "kappa_L": 0.0030200789628769265,
+      "kappa_bip": 4.992012984403099e-05,
+      "L_uni": 5.549143224420567e-11,
+      "kappa_total": 0.003813774368339906
+    }
+  },
+  "256": {
+    "pointwise_95_coverage": {
+      "kappa_L": 0.9495333988212181,
+      "kappa_bip": 0.9323428290766208,
+      "L_uni": 0.9171168958742633,
+      "kappa_total": 0.9910363457760314
+    },
+    "median_absolute_difference_from_256": {
+      "kappa_L": 0.0,
+      "kappa_bip": 0.0,
+      "L_uni": 0.0,
+      "kappa_total": 0.0
+    }
+  }
+}

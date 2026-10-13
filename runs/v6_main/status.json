@@ -1,0 +1,15 @@
+{
+  "completed": [
+    "mobility_extra",
+    "mobility_spline",
+    "mobility",
+    "spline",
+    "extra"
+  ],
+  "started": 1791477865.4433925,
+  "status": "complete",
+  "active": null,
+  "workers": 2,
+  "finished": 1791509834.5237858,
+  "scientific_status": "Exploratory; review diagnostics before manuscript claims"
+}

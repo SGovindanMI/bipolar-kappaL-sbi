@@ -1,0 +1,11 @@
+{
+  "timestamp": 1791479643.1781485,
+  "reason": "Cache NpzFile arrays outside bootstrap loop; no estimator, random seed, draw selection, or scientific formula changed. Added baseline inference fixtures for common-case audit only.",
+  "old_analysis_sha256": "0d3252bba8885ca15c5d916e59197b1b39d47ddcb08e84d08b75bdd96386b12c",
+  "new_analysis_sha256": "f00466781471698b9207535c12466950397d8ad8047a38c2282e102d578216d4",
+  "manifests": [
+    "runs\\v6_main\\manifest.json",
+    "runs\\v6_main\\mobility_extra\\manifest.json",
+    "runs\\v6_main\\mobility_spline\\manifest.json"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "docx_sha256": "7f6b3c4aa899a2bb7169ba728077c04f15ed8cb60b3ba80bc309f05ebc712338",
+  "pdf_sha256": "7d3930d94aa5cbff78028ed625851dfa806c72ba76b3eac577888ef41fb00358",
+  "pages": 10,
+  "tables": 7,
+  "native_display_equations": 7,
+  "render_engine": "Microsoft Word PDF export; LibreOffice unavailable",
+  "visual_review": "All final pages reviewed, including native equations, repeated table headers, table wrapping and figure labels. Final reference/figure pagination inspected after adjustments.",
+  "figures": 2
+}

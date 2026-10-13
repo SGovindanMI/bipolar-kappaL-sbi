@@ -1,0 +1,330 @@
+{
+  "checked_on": "2026-10-10",
+  "references": {
+    "1": {
+      "text": "Kim, H.-S., Gibbs, Z. M., Tang, Y., Wang, H. & Snyder, G. J. Characterization of Lorenz number with Seebeck coefficient measurement. APL Materials 3, 041506 (2015). doi:10.1063/1.4908244",
+      "url": "https://thesis.caltech.edu/9780/1/Kim_Hyun-Sik_2016_Thesis_Final.pdf",
+      "access": "Author thesis, chapter 8 reproduces the article; publisher endpoint inaccessible.",
+      "number": 1
+    },
+    "2": {
+      "text": "Kim, H.-S., Lee, K. H., Yoo, J., Youn, J., Roh, J. W., Kim, S.-i. & Kim, S. W. Effect of substitutional Pb doping on bipolar and lattice thermal conductivity in p-type Bi0.48Sb1.52Te3. Materials 10, 763 (2017). doi:10.3390/ma10070763",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5551806/",
+      "access": "Full text verified from user-supplied PDF (9 pages). Pages 3-5, Eq. (5), Table 1 and Fig. 4 support model-assisted bipolar decomposition; page 8 records Hall measurements. Not independent component ground truth.",
+      "number": 5
+    },
+    "3": {
+      "text": "Wang, S., Yang, J., Toll, T., Yang, J., Zhang, W. & Tang, X. Conductivity-limiting bipolar thermal conductivity in semiconductors. Scientific Reports 5, 10136 (2015). doi:10.1038/srep10136",
+      "url": "https://www.nature.com/articles/srep10136",
+      "access": "Publisher full text; bipolar expression and minority-conductivity dependence.",
+      "number": 3
+    },
+    "4": {
+      "text": "Kuo, J. J., Wood, M., Slade, T. J., Kanatzidis, M. G. & Snyder, G. J. Systematic over-estimation of lattice thermal conductivity in materials with electrically-resistive grain boundaries. Energy & Environmental Science 13, 1250–1258 (2020). doi:10.1039/C9EE03921J",
+      "url": "https://pubs.rsc.org/en/content/getauthorversionpdf/c9ee03921j",
+      "access": "Author manuscript accessible; grain-boundary subtraction bias.",
+      "number": 6
+    },
+    "5": {
+      "text": "Candolfi, C., Wiendlocha, B., Ohorodniichuk, V., Levinský, P., Migot, S., Steciuk, G., Terzi, I., Wieder, A., Dauscher, A., El Oualid, S. & Lenoir, B. Hidden in plain heat: anomalous Lorenz number in the thermoelectric alloy Bi0.4Sb1.6Te3. Nature Communications 16, 11528 (2025). doi:10.1038/s41467-025-66578-y",
+      "url": "https://www.nature.com/articles/s41467-025-66578-y",
+      "access": "Publisher full text; low-temperature high-field separation and inelastic-scattering interpretation.",
+      "number": 7
+    },
+    "6": {
+      "text": "Papamakarios, G. & Murray, I. Fast ε-free inference of simulation models with Bayesian conditional density estimation. Advances in Neural Information Processing Systems 29, 1028–1036 (2016). https://proceedings.neurips.cc/paper/2016/hash/6aca97005c68f1206823815f66102863-Abstract.html",
+      "url": "https://proceedings.neurips.cc/paper/2016/hash/6aca97005c68f1206823815f66102863-Abstract.html",
+      "access": "Proceedings abstract and linked full paper; methodological precedent, not the exact implemented architecture.",
+      "number": 8
+    },
+    "7": {
+      "text": "Cranmer, K., Brehmer, J. & Louppe, G. The frontier of simulation-based inference. PNAS 117, 30055–30062 (2020). doi:10.1073/pnas.1912789117",
+      "url": "https://arxiv.org/html/1911.01429v3",
+      "access": "Author full text and journal DOI verified; methodological overview.",
+      "number": 9
+    },
+    "8": {
+      "text": "Talts, S., Betancourt, M., Simpson, D., Vehtari, A. & Gelman, A. Validating Bayesian inference algorithms with simulation-based calibration. arXiv:1804.06788 (2018).",
+      "url": "https://arxiv.org/abs/1804.06788",
+      "access": "Author preprint; cited as SBC methodology, not as a claim that full SBC was performed.",
+      "number": 10
+    },
+    "9": {
+      "text": "Kielar, S., Li, C., Huang, H., Hu, R., Slebodnick, C., Alatas, A. & Tian, Z. Anomalous lattice thermal conductivity increase with temperature in cubic GeTe correlated with strengthening of second-nearest neighbor bonds. Nature Communications 15, 6981 (2024). doi:10.1038/s41467-024-51377-8",
+      "url": "https://www.nature.com/articles/s41467-024-51377-8",
+      "access": "Publisher full text; calculated lattice upturn and experimental comparison in cubic GeTe.",
+      "number": 12
+    },
+    "10": {
+      "text": "Katsura, Y., Kumagai, M., Mato, T., Takada, Y., Ando, Y., Fujita, E., Hosono, F., Koyama, E., Mudasar, F., Phuong, T. N. T., Saito, N., Sakamoto, Y., Tanaka, A., Yana, D., Kimura, K., Tsuda, K. & Demura, M. Starrydata: from published plots to shared materials data. Science and Technology of Advanced Materials: Methods 5, 2506976 (2025). doi:10.1080/27660400.2025.2506976",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/27660400.2025.2506976",
+      "access": "Publisher full text; database design and digitisation. Current cohort counts are this project’s measurements.",
+      "number": 13
+    },
+    "11": {
+      "text": "Fritsch, F. N. & Butland, J. A method for constructing local monotone piecewise cubic interpolants. SIAM Journal on Scientific and Statistical Computing 5, 300–304 (1984). doi:10.1137/0905021",
+      "url": "https://anthonylloyd.github.io/public/interp/pchip/A_method_for_constructing_local_monotone_picewise_cubic_interpolants_fritsch1984.pdf",
+      "access": "Publisher metadata verified; complete published five-page article accessed through a PDF mirror. Supports local shape-preserving interpolation, including piecewise-monotone data.",
+      "number": 20
+    },
+    "12": {
+      "text": "Goldsmid, H. J. & Sharp, J. W. Estimation of the thermal band gap of a semiconductor from Seebeck measurements. Journal of Electronic Materials 28, 869–872 (1999). doi:10.1007/s11664-999-0211-y",
+      "url": "https://link.springer.com/article/10.1007/s11664-999-0211-y",
+      "access": "Full text verified from user-supplied PDF (4 pages; journal pages 869-872). Approximate Seebeck-maximum gap relation; pages 870-871 examine mobility, effective-mass and scattering dependence and narrow-gap statistics. Not an independent validation using the same Seebeck data.",
+      "number": 21
+    },
+    "lorenz": {
+      "text": "Putatunda, A. & Singh, D. J. Lorenz number in relation to estimates based on the Seebeck coefficient. Materials Today Physics 8, 49–55 (2019). doi:10.1016/j.mtphys.2019.01.001",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S2542529318301561",
+      "access": "Full text verified from user-supplied PDF (7 pages; journal pages 49-55). Equations (4) and (7) distinguish open-circuit conductivity; pages 51-54 and Table 2 support scattering- and band-structure-dependent departures from the Kim estimate. No universal error bound or corpus-specific correction follows.",
+      "number": 2
+    },
+    "multiband": {
+      "text": "Thesberg, M., Kosina, H. & Neophytou, N. On the Lorenz number of multiband materials. Physical Review B 95, 125206 (2017). doi:10.1103/PhysRevB.95.125206",
+      "url": "https://www.iue.tuwien.ac.at/pdf/ib_2017/JB2017_Thesberg_1.pdf",
+      "access": "Author-hosted full paper; multiband Lorenz-number variation.",
+      "number": 4
+    },
+    "trust": {
+      "text": "Hermans, J., Delaunoy, A., Rozet, F., Wehenkel, A., Begy, V. & Louppe, G. A trust crisis in simulation-based inference? Your posterior approximations can be unfaithful. Transactions on Machine Learning Research (2022). https://openreview.net/forum?id=LHAbHkt6Aq",
+      "url": "https://arxiv.org/html/2110.06581v3",
+      "access": "Author full text and published TMLR PDF; posterior overconfidence and coverage diagnostics.",
+      "number": 11
+    },
+    "benchmark": {
+      "text": "Lueckmann, J.-M., Boelts, J., Greenberg, D., Gonçalves, P. & Macke, J. Benchmarking simulation-based inference. Proceedings of Machine Learning Research 130, 343–351 (2021). https://proceedings.mlr.press/v130/lueckmann21a.html",
+      "url": "https://proceedings.mlr.press/v130/lueckmann21a/lueckmann21a.pdf",
+      "access": "Proceedings full paper; complementary diagnostics and no uniformly best algorithm.",
+      "number": 19
+    },
+    "silu": {
+      "text": "Elfwing, S., Uchibe, E. & Doya, K. Sigmoid-weighted linear units for neural network function approximation in reinforcement learning. Neural Networks 107, 3–11 (2018). doi:10.1016/j.neunet.2017.12.012",
+      "url": "https://arxiv.org/pdf/1702.03118",
+      "access": "Author full paper; journal metadata verified on publisher page. Citation credits the activation only.",
+      "number": 14
+    },
+    "adamw": {
+      "text": "Loshchilov, I. & Hutter, F. Decoupled weight decay regularization. International Conference on Learning Representations (2019). https://openreview.net/forum?id=Bkg6RiCqY7",
+      "url": "https://arxiv.org/pdf/1711.05101",
+      "access": "Author full paper; AdamW method. Hyperparameters are this project’s recorded choices.",
+      "number": 15
+    },
+    "torch": {
+      "text": "Paszke, A. et al. PyTorch: an imperative style, high-performance deep learning library. Advances in Neural Information Processing Systems 32 (2019). https://arxiv.org/abs/1912.01703",
+      "url": "https://arxiv.org/abs/1912.01703",
+      "access": "Author paper record; framework attribution. Run versions come from local manifests, not this paper.",
+      "number": 18
+    },
+    "numpy": {
+      "text": "Harris, C. R. et al. Array programming with NumPy. Nature 585, 357–362 (2020). doi:10.1038/s41586-020-2649-2",
+      "url": "https://www.nature.com/articles/s41586-020-2649-2",
+      "access": "Publisher full text; software attribution.",
+      "number": 16
+    },
+    "scipy": {
+      "text": "Virtanen, P. et al. SciPy 1.0: fundamental algorithms for scientific computing in Python. Nature Methods 17, 261–272 (2020). doi:10.1038/s41592-019-0686-2",
+      "url": "https://www.nature.com/articles/s41592-019-0686-2",
+      "access": "Publisher full text; software attribution.",
+      "number": 17
+    },
+    "gap": {
+      "text": "Gibbs, Z. M., Kim, H.-S., Wang, H. & Snyder, G. J. Band gap estimation from temperature dependent Seebeck measurement—Deviations from the 2e|S|maxTmax relation. Applied Physics Letters 106, 022112 (2015). doi:10.1063/1.4905922",
+      "url": "https://thesis.caltech.edu/9780/1/Kim_Hyun-Sik_2016_Thesis_Final.pdf",
+      "access": "Author thesis chapter 7 reproduces the article; author institutional record verifies DOI. Supports mobility-ratio and narrow-gap limitations.",
+      "number": 22
+    }
+  },
+  "placements": [
+    {
+      "document": "main",
+      "section": "1. Introduction",
+      "keys": [
+        "1",
+        "lorenz"
+      ],
+      "paragraph": "The figure of merit zT = S2σT/κ combines measured electrical conductivity, Seebeck coefficient and total thermal conductivity. Separating lattice heat requires additional assumptions. A widely used approximation is κL = κ − LσT, with L inferred from S. The single-parabolic-band estimator of Kim et al. [@1] is L = [1.5 + exp(−|S|/116)] × 10−8 W Ω K−2, where S is expressed in µV K−1. Its applicability depends on the assumed carrier and scattering regime; realistic non-parabolic band structures can produce departures from this approximation [@lorenz]."
+    },
+    {
+      "document": "main",
+      "section": "1. Introduction",
+      "keys": [
+        "3",
+        "multiband"
+      ],
+      "paragraph": "With two carrier types, the unipolar electronic contribution is κe = (Lpσp + Lnσn)T, and an additional term is κbip = [σpσn/(σp + σn)](Sp − Sn)2T, using signed band Seebeck coefficients [@3]. In the absence of an additional thermal channel, subtracting only κe leaves κL + κbip. An effective Lorenz number defined to include bipolar heat would instead absorb this term. Specifying the Lorenz convention is therefore essential, especially when comparing multiband Lorenz numbers [@multiband]."
+    },
+    {
+      "document": "main",
+      "section": "1. Introduction",
+      "keys": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "paragraph": "Single-material studies already treat bipolar transport explicitly [@2,3]. Other mechanisms also affect subtraction: electrically resistive grain boundaries can produce an overestimate [@4], and departures from simple scattering can alter the Lorenz number [@5]. We quantify the results of applying one conventional subtraction uniformly to a frozen literature-derived corpus and compare them with a stated joint model. We do not establish which subtraction each source author used."
+    },
+    {
+      "document": "main",
+      "section": "1. Introduction",
+      "keys": [
+        "6",
+        "7",
+        "8",
+        "trust"
+      ],
+      "paragraph": "Amortised simulation-based inference [@6,7] makes repeated approximate inference practical after training on simulator output. Its uncertainty must be checked against held-out simulations [@8,trust]. Here we distinguish tests of raw Gaussian ellipsoids from coverage of the constrained draws and derived heat channels used in the analysis."
+    },
+    {
+      "document": "main",
+      "section": "1. Introduction",
+      "keys": [
+        "9"
+      ],
+      "paragraph": "The inferred thermal decomposition depends on the assumptions of the forward model. The reference model imposes two structural restrictions: the two bands share their mobility prefactor, mobility temperature exponent and scattering exponent, and the lattice term can only decrease with temperature. Genuine lattice upturns have been reported, for example in cubic GeTe [@9], and synthetic stress tests show that both restrictions can bias channel estimates. We therefore train five further estimators that relax them, separately and together, and use independent same-model simulations, shared stress tests and selection-controlled corpus comparisons to ask which conclusions survive the change of model."
+    },
+    {
+      "document": "main",
+      "section": "2.1 Corpus",
+      "keys": [
+        "10"
+      ],
+      "paragraph": "The analysis set contains 13,031 literature-derived transport records from 2,715 source papers in Starrydata [@10]. Each record contains σ(T), S(T) and total κ(T), together with a sample identifier, source DOI and family label. We verify the released sample list against the official ThermoelectricMaterials export with database snapshot 9 October 2026, joining on source paper and sample rather than integer sample identifier alone. The dated release, SHA-256 checksums and selection manifest are archived."
+    },
+    {
+      "document": "main",
+      "section": "2.2 Forward model",
+      "keys": [
+        "3"
+      ],
+      "paragraph": "The simulator is a two-band single-parabolic-band model, following the transport framework used for bipolar conduction [@3]. Carrier densities are solved from charge neutrality, nmaj(ηmaj,T) − nmin(ηmin,T) = Nnet, where Nnet > 0 is the magnitude of the net dopant density and ηmin = −ηmaj − Eg/(kBT), by bisection at each temperature, so thermally activated behaviour in which σ rises with temperature emerges from the physics rather than being imposed. The solver expands its bracket and checks the neutrality residual. For Nnet = 1021 cm−3 and majority mass 10−1.3 me at 300 K, η ≈ 281.43 is resolved rather than silently limited to 40. Forward inputs are promoted to double precision. The sign head assigns holes or electrons to the majority band and reverses the signed Seebeck coefficients accordingly. In the physical hole/electron convention, p − n equals +Nnet for p-type and −Nnet for n-type material."
+    },
+    {
+      "document": "main",
+      "section": "2.4 Amortised posterior",
+      "keys": [
+        "silu"
+      ],
+      "paragraph": "The network has three hidden layers of 256 SiLU units [@silu]. It predicts D standardised means, D log diagonal and D(D − 1)/2 off-diagonal entries of a lower-triangular precision factor A, plus a Bernoulli sign logit; D = 10 for the reference model. Precision is AAT; Gaussian draws solve ATv = ε before restoring parameter scale. Continuous and sign heads factorise conditionally on the features. Diagonal log factors are clipped to [−3, 6] before exponentiation; strictly lower-triangular factors are unconstrained. Continuous-head weights and biases are initialised to zero. A single Gaussian cannot generally represent multimodal or strongly non-Gaussian posteriors. The per-example training objective is"
+    },
+    {
+      "document": "main",
+      "section": "2.4 Amortised posterior",
+      "keys": [
+        "adamw"
+      ],
+      "paragraph": "Training uses AdamW [@adamw], initial learning rate 0.0015, weight decay 10−5, batches of 1024 and gradient clipping at norm 5. ReduceLROnPlateau has factor 0.5 and patience 6. The cap is 900 epochs; early stopping requires 50 epochs without an improvement of at least 10−4. The run stopped by epoch_cap after 900 epochs, selecting epoch 890 (one-based; stored index 889) with validation negative log likelihood −7.1647 in standardised coordinates. Training seed is 0; device and library versions are archived."
+    },
+    {
+      "document": "main",
+      "section": "2.4 Amortised posterior",
+      "keys": [
+        "numpy",
+        "scipy",
+        "torch"
+      ],
+      "paragraph": "The archived extended-model runs used Python 3.11.9, NumPy 2.4.6 [@numpy], SciPy 1.17.1 [@scipy] and PyTorch 2.11.0+cu128 [@torch], with CUDA 12.8 on an NVIDIA GeForce RTX 5060 Laptop GPU. Reference-training metadata independently record CUDA execution under the same PyTorch build. Training uses single precision, while the physical forward calculations use double precision. The training code seeds its random generators, requests deterministic PyTorch algorithms, disables TF32 and configures four CPU threads. These controls do not guarantee bitwise equality across environments. Supplementary computational details distinguish recorded specifications from unrecorded fields."
+    },
+    {
+      "document": "main",
+      "section": "2.5 Calibration",
+      "keys": [
+        "8",
+        "trust",
+        "benchmark"
+      ],
+      "paragraph": "We also assess empirical coverage of nominal 95% marginal intervals for all continuous parameters and pointwise intervals for κL, κbip, the unipolar Lorenz number and total κ, using the final constrained draws. Rates are conditional on scored independent test curves, with unscored counts reported separately. These finite-sample checks are not full joint simulation-based rank calibration [@8]; coverage and other posterior-quality metrics assess different properties [@trust,benchmark]."
+    },
+    {
+      "document": "main",
+      "section": "2.7 Extended carrier and thermal models",
+      "keys": [
+        "3"
+      ],
+      "paragraph": "Five extended models relax the reference restrictions. The carrier extensions are motivated by the sensitivity of bipolar transport to the separate carrier conductivities and mobilities [@3]. In the independent-band variants, the minority band receives its own temperature exponent pμ,min, uniform on [−3.5, 2], and scattering exponent rmin, uniform on [−1, 2], which enter both its mobility (equation 1) and its transport integrals. Log10 of the minority-to-majority non-degenerate 300 K mobility-prefactor ratio is uniform on [−1, 1]; the majority prefactor keeps the doping-dependent prior. The prefactor ratio is not a fixed ratio of actual mobilities at all temperatures. The reference model is recovered when the ratio is one and the exponents match, and this nesting was checked numerically, including on the released mobility-ratio stress cases."
+    },
+    {
+      "document": "main",
+      "section": "2.7 Extended carrier and thermal models",
+      "keys": [
+        "11"
+      ],
+      "paragraph": "The flexible-lattice variants replace equation 2’s lattice term by a positive monotonicity-preserving piecewise cubic Hermite interpolant (PCHIP) [@11] in log conductivity versus log temperature,"
+    },
+    {
+      "document": "main",
+      "section": "3.2 Comparison of four lattice estimates",
+      "keys": [
+        "5"
+      ],
+      "paragraph": "Inelastic scattering can change the Lorenz number beyond the present power-law relaxation-time model [@5]. The corpus comparison does not show that Lorenz uncertainty is unimportant in every material or regime."
+    },
+    {
+      "document": "main",
+      "section": "3.3 Association with inferred bipolar heat",
+      "keys": [
+        "9"
+      ],
+      "paragraph": "Across their own windows, 2,433 admitted curves (33.6%) have A at the final grid point above A at index 8; B gives 2,500 (34.5%). These are two-point upturn indicators, not monotonicity tests. Genuine lattice conductivity can rise, as reported for cubic GeTe [@9]."
+    },
+    {
+      "document": "main",
+      "section": "5. Limitations",
+      "keys": [
+        "12",
+        "gap"
+      ],
+      "paragraph": "The inferred gap is not an independently validated measurement. Goldsmid–Sharp estimates [@12] reuse Seebeck data already seen by the network and can deviate with unequal weighted mobilities or narrow gaps [@gap]. Gap and minority mass affect bipolar transport, so their uncertainty or bias can propagate into κL; the lattice result is not independent of them."
+    },
+    {
+      "document": "main",
+      "section": "6. Remaining validation needs",
+      "keys": [
+        "8",
+        "trust",
+        "benchmark"
+      ],
+      "paragraph": "Further checks should examine joint rank calibration, simultaneous coverage, more flexible conditional density estimators, replicate training seeds, per-curve MCMC comparisons and larger draw counts [@8,trust,benchmark]. Carrier tests should vary band shape and non-parabolicity. The current tests cover selected departures rather than every plausible mismatch."
+    },
+    {
+      "document": "main",
+      "section": "6. Remaining validation needs",
+      "keys": [
+        "2",
+        "3",
+        "5"
+      ],
+      "paragraph": "External benchmarks should use matched specimens with Hall data, independent gaps or thermal-separation experiments. Model-assisted decompositions [@2,3] and low-temperature high-field separation [@5] are informative comparisons, but should not be treated as direct high-temperature ground truth without examining assumptions. Such constraints are the most direct route to narrowing the model dependence documented here."
+    },
+    {
+      "document": "main",
+      "section": "6. Remaining validation needs",
+      "keys": [
+        "10"
+      ],
+      "paragraph": "Source measurements are from Starrydata [@10]. The analysed sample list identifies 13,031 records from 2,715 papers. The official per-project files are pinned to https://github.com/starrydata/starrydata_datasets/releases/tag/data-20261008, whose manifest reports database snapshot 9 October 2026. Source hashes, DOI/sample identities, final-row mappings, retained posterior arrays and analysis summaries accompany the code and separate data archive. A public versioned code repository and persistent data-deposit identifiers will be supplied by the authors before publication."
+    },
+    {
+      "document": "supplement",
+      "section": "Supplementary computational details",
+      "keys": [
+        "numpy",
+        "scipy",
+        "torch"
+      ],
+      "paragraph": "All five extended-run manifests record Python 3.11.9, NumPy 2.4.6 [@numpy], SciPy 1.17.1 [@scipy], PyTorch 2.11.0+cu128 [@torch], CUDA 12.8 and an NVIDIA GeForce RTX 5060 Laptop GPU. Reference-training metadata record the same PyTorch build and CUDA execution, but do not independently record the GPU model. CPU model, installed RAM, operating-system version, GPU memory and driver version were not captured in the archived run manifests. They are not inferred from the present computer."
+    },
+    {
+      "document": "supplement",
+      "section": "Supplementary computational details",
+      "keys": [
+        "silu",
+        "adamw",
+        "8",
+        "trust",
+        "benchmark"
+      ],
+      "paragraph": "The SiLU activation [@silu] and AdamW optimiser [@adamw] are established components; network width, depth, precision-factor output and optimisation settings are choices of this study. Supplementary Figure 1 and Tables 1 and 17 describe training. Marginal and pointwise coverage are distinguished from full rank-based simulation calibration [@8], and no citation is used to imply that an unperformed calibration or architecture comparison has been completed [@trust,benchmark]."
+    }
+  ]
+}

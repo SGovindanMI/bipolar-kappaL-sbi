@@ -1,0 +1,189 @@
+{
+  "metadata": {
+    "model_version": "6.0.1-research",
+    "spec": {
+      "version": "6.0.1-research",
+      "variant": "spline",
+      "names": [
+        "log10N_net",
+        "log10m_maj",
+        "log10m_min",
+        "log10mu300",
+        "p_mu",
+        "log10Eg",
+        "r",
+        "log10kL_285",
+        "log10kL_400",
+        "log10kL_550",
+        "log10kL_750",
+        "log10kL_1000",
+        "log10kL_1250"
+      ],
+      "lower": [
+        16.0,
+        -1.3,
+        -1.7,
+        null,
+        -3.5,
+        -1.5,
+        -1.0,
+        -3.0,
+        -3.0,
+        -3.0,
+        -3.0,
+        -3.0,
+        -3.0
+      ],
+      "upper": [
+        21.0,
+        0.7,
+        1.0,
+        null,
+        2.0,
+        0.55,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0
+      ],
+      "conditional_mu": "3.1 - 0.5*(log10N_net-17) + Uniform(-1.8,1.2)",
+      "spline_knots": [
+        285.0,
+        400.0,
+        550.0,
+        750.0,
+        1000.0,
+        1250.0
+      ],
+      "spline_limits": [
+        0.001,
+        100.0
+      ],
+      "spline": "PCHIP(log10(kL)) versus log(T), independent uniform node priors",
+      "extra": null,
+      "noise": 0.02,
+      "zT_max": 3.5
+    },
+    "checkpoint_sha256": "289e02802c1de3b789c6828cfc737c0fc721afd6efe1e150093ed0c27a5e37be",
+    "source_sha256": "df340f5bb99680dff990902b06adfaaafd8818f011ba1dd910579924b3369275",
+    "channels": [
+      "sigma",
+      "S_uVK",
+      "kappa",
+      "kappa_L",
+      "kappa_bip",
+      "Luni",
+      "kappa_e",
+      "kappa_extra"
+    ],
+    "slope_names": [
+      "A",
+      "B",
+      "C",
+      "Cprime_bip",
+      "Cprime_all"
+    ],
+    "final_fraction_channels": [
+      "lattice",
+      "bipolar",
+      "extra"
+    ],
+    "matching_parameter_truth": false,
+    "seed": 6125,
+    "draws": 128,
+    "budget": 8192,
+    "batch": 32,
+    "min_draws": 64,
+    "admission_threshold": 0.75,
+    "bands": "latent 2.5 and 97.5 percentiles, no observation noise",
+    "prior_restriction": "conditional parameter box and peak zT <=3.5 on 16-point observation window",
+    "seconds": 310.4093518257141
+  },
+  "n": 13031,
+  "scored": 11036,
+  "admitted": 7608,
+  "estimators": [
+    "A: Kim subtraction",
+    "B: unipolar posterior subtraction",
+    "C: model lattice",
+    "Cprime_bip: B minus marginal median bipolar",
+    "Cprime_all: Cprime_bip minus marginal median extra"
+  ],
+  "covariance_note": "Medians do not add. Matched-draw fractions and nested comparisons are separate.",
+  "selection_note": "Native requires five finite slopes; common additionally requires baseline admission and four finite slopes",
+  "native": {
+    "n": 4162,
+    "papers": 1244,
+    "shifts": {
+      "C_A": [
+        -0.6305277688772211,
+        -0.7388226560715869,
+        -0.5547499366169069
+      ],
+      "C_B": [
+        -0.5764712360566189,
+        -0.6867569360174738,
+        -0.4951252285633656
+      ],
+      "Cprime_bip_A": [
+        -0.3977777153105304,
+        -0.4531033246372346,
+        -0.3467688061494111
+      ],
+      "Cprime_all_A": [
+        -0.3977777153105304,
+        -0.4531033246372346,
+        -0.3467688061494111
+      ]
+    },
+    "change_C_slope_vs_baseline": [
+      -0.4764601055148773,
+      -0.5850437545979519,
+      -0.39867403693562914
+    ]
+  },
+  "common_baseline": {
+    "n": 3326,
+    "papers": 1031,
+    "shifts": {
+      "C_A": [
+        -0.7366575752592617,
+        -0.8800106054764091,
+        -0.6223805923309425
+      ],
+      "C_B": [
+        -0.6774211042221961,
+        -0.8047266102461139,
+        -0.5708554680270338
+      ],
+      "Cprime_bip_A": [
+        -0.4220083725250011,
+        -0.47752773586453545,
+        -0.35897886203446644
+      ],
+      "Cprime_all_A": [
+        -0.4220083725250011,
+        -0.47752773586453545,
+        -0.35897886203446644
+      ]
+    },
+    "change_C_slope_vs_baseline": [
+      -0.5562685619314173,
+      -0.6790246731426575,
+      -0.4315019914886434
+    ]
+  },
+  "admission_overlap": {
+    "both": 6027,
+    "new_only": 1581,
+    "baseline_only": 1224
+  },
+  "nested_C_B_interval": [
+    -0.5299504637718201,
+    -0.45661376416683197,
+    -0.39082429409027103
+  ]
+}

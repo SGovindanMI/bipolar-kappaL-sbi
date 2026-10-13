@@ -1,0 +1,18 @@
+{
+  "plotted_values_verified": 2210,
+  "source_data_check": "all values match saved diagnostics or histories",
+  "figures": 4,
+  "native_equations": 11,
+  "supplementary_tables": 8,
+  "baseline_release_v5_included": true,
+  "raster_dpi": 600,
+  "minimum_embedded_dpi": 655.7818181818182,
+  "scientific_arrays_modified": false,
+  "sha256": {
+    "figure_source_data.csv": "d8adfe94a05b1ffea290754709700d25cb8b265e70fe2bc903aa130608385991",
+    "manuscript_publication.docx": "95da1c4720027da419360282725662ff54df0269e716d5ebed321c961d5a7fd0",
+    "manuscript_publication.pdf": "2f8ca839309514fb1d65e6390c6fa06742e9160bfa847045d6be043c8eefb12c",
+    "supplementary_information.docx": "1a7edf4caed22dd3ee6e3fb630dd1c78d4eb1af7225d3f386c0924868268c8fa",
+    "supplementary_information.pdf": "8daf44dd5f42a9fc710c1a6db9073d981c57173e3972ea9ac94164abc9185f4a"
+  }
+}

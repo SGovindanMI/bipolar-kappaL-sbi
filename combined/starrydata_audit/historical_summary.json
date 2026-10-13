@@ -1,0 +1,11 @@
+{
+  "release_tag": "data-20260715",
+  "manifest_db_snapshot": "2026-06-30 02:00:02 UTC+0900 (JST)",
+  "sha256": "62ef5e26bd45875c66b1c8e1f906764cb282da568dac56d71b4cd6897325205e",
+  "rows": 155923,
+  "caveat": "This is not established as the original snapshot; counts differ from legacy documentation.",
+  "sample_ids_crossing_papers": 531,
+  "legacy_join_mixed_transport_papers": 24,
+  "legacy_join_max_feature_difference_le_0_001": 13250,
+  "last_metadata_doi_matches_recorded": 13256
+}

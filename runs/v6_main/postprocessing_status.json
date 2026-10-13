@@ -1,0 +1,14 @@
+{
+  "completed": [
+    "verify_redo",
+    "redo_report",
+    "redo_compare",
+    "redo_cross",
+    "redo_supplement",
+    "redo_stress_compare",
+    "redo_figures",
+    "redo_manuscript"
+  ],
+  "status": "complete",
+  "active": null
+}

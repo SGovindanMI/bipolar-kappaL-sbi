@@ -1,0 +1,36 @@
+{
+  "selection": "Paper/sample identity, canonical SI units, unique usable temperatures, coverage and channel-specific source reproduction tolerances; see source audit.",
+  "n": 13031,
+  "original_n": 13256,
+  "sources": {
+    "data/real_analysis_set.npz": {
+      "original_sha256": "df340f5bb99680dff990902b06adfaaafd8818f011ba1dd910579924b3369275",
+      "corrected_sha256": "ce0b0307d2478eabf7a1b22839f1cbc181e28fddd3c8d68b784038037c6d9256"
+    },
+    "data/inference_v5.npz": {
+      "original_sha256": "1466c82495cd3847f5b298d1422645b8988b54283d3db76914ad8fd88cda6fa7",
+      "corrected_sha256": "4a944ef85bf5ce25f63e1caa9c08d2d436f38b7520e10b31c2a55863cec6767b"
+    },
+    "runs/v6_main/mobility/real_inference.npz": {
+      "original_sha256": "d5a1188b89497e074feb33cbaf2d0151ed24d81abab087124cbb35cb15b62e82",
+      "corrected_sha256": "de092396f790232fc343f5c4d4d767c483ad90aaf2f5d2fae0c7d43e97a7056f"
+    },
+    "runs/v6_main/extra/real_inference.npz": {
+      "original_sha256": "1b2b8eca870017e52ec6bf3274b9cb4f389b557e7112c0df49f32a5ec9e1374f",
+      "corrected_sha256": "89142abd6f312d5b35827c9585b55074290e771d6a16962263b7333b8fcf221a"
+    },
+    "runs/v6_main/spline/real_inference.npz": {
+      "original_sha256": "c6f2cca59e73b8e56e01f4f005764e7f039fa3bcd7a4c8b49e74acd706ec99ca",
+      "corrected_sha256": "a9a6d1e8d177919094fc144a95b6ce872996732e22c40dbcbbdfc2874905094d"
+    },
+    "runs/v6_main/mobility_extra/real_inference.npz": {
+      "original_sha256": "f7822c589d809907105951d0722929735508db1af09abd83ec80dede1b6bd17b",
+      "corrected_sha256": "e41f2cc66a22c5c54fc3d18092820620e492fb06bcf6fc063b64ccbc28440ae9"
+    },
+    "runs/v6_main/mobility_spline/real_inference.npz": {
+      "original_sha256": "7a17d094bea25218cbdd0c2da4f6415f252564aa39a9ec48c0e645f123edbfd4",
+      "corrected_sha256": "78cb872f94a02e7ef79e704568755f19e9eff3881af6e87f0f0c3e68000e7f4a"
+    }
+  },
+  "papers": 2715
+}

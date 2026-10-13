@@ -1,0 +1,11 @@
+# Arrays are distributed in the data deposit (tools/package_release.py)
+*.npz
+# Superseded exploratory runs, caches and interrupted-stage console logs
+v6_pilot/
+v6_production/
+v6_expanded/
+mpl-cache/
+*_console.log
+v6_main/rendered/
+v6_main/publication/rendered/
+v6_main/cache_equivalence_check/

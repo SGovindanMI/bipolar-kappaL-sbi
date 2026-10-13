@@ -1,0 +1,31 @@
+{
+  "completed": [
+    "mobility/generate_train",
+    "mobility/train",
+    "mobility/generate_test",
+    "mobility/generate_narrow",
+    "mobility/infer_test",
+    "mobility/diagnose_test",
+    "mobility/infer_narrow",
+    "mobility/diagnose_narrow",
+    "mobility/infer_base_test",
+    "mobility/diagnose_base_test",
+    "mobility/infer_mobility_low",
+    "mobility/diagnose_mobility_low",
+    "mobility/infer_mobility_high",
+    "mobility/diagnose_mobility_high",
+    "mobility/infer_wide_upturn",
+    "mobility/diagnose_wide_upturn",
+    "mobility/infer_narrow_upturn",
+    "mobility/diagnose_narrow_upturn",
+    "mobility/infer_narrow_control",
+    "mobility/diagnose_narrow_control",
+    "mobility/infer_real",
+    "mobility/analyse_real"
+  ],
+  "started": 1791479683.8254952,
+  "active": null,
+  "status": "complete",
+  "finished": 1791507391.8978262,
+  "scientific_status": "Exploratory; review coverage, identifiability and prior sensitivity before manuscript claims"
+}

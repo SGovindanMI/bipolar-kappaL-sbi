@@ -1,0 +1,86 @@
+[
+  {
+    "case": "upturn",
+    "seed": 3007,
+    "source_sha256": "c9e170c707c2128eb2bae5ec9bf4d1a6f9f9ca0504eb9ad04dc49a91de4c94cd",
+    "checkpoint_sha256": "8222aa3992e422e34daf5e73de7fbd24ba6aad8bad8dd7a91a995a42eca1d188",
+    "archived_sha256": "3d3b5bfa52bb0a9b15b96fdf1e75e27e2cc9eea69bac6a7ee25ede812d9d3c7e",
+    "replay_sha256": "8854b5b284da3be2010e9e3c9e740323d0948e137179c190a0168b655fc4d61b",
+    "fields": {
+      "theta": {
+        "exact_equal": false,
+        "close_rtol_1e4_atol_1e6": false
+      },
+      "quantiles": {
+        "exact_equal": false,
+        "close_rtol_1e4_atol_1e6": false
+      },
+      "nok": {
+        "exact_equal": true,
+        "close_rtol_1e4_atol_1e6": true
+      },
+      "scored": {
+        "exact_equal": true,
+        "close_rtol_1e4_atol_1e6": true
+      },
+      "admit": {
+        "exact_equal": true,
+        "close_rtol_1e4_atol_1e6": true
+      },
+      "explained": {
+        "exact_equal": true,
+        "close_rtol_1e4_atol_1e6": true
+      },
+      "slope_draws": {
+        "exact_equal": false,
+        "close_rtol_1e4_atol_1e6": false
+      }
+    },
+    "archived_scored": 553,
+    "replay_scored": 553,
+    "archived_admitted": 485,
+    "replay_admitted": 485
+  },
+  {
+    "case": "control",
+    "seed": 3008,
+    "source_sha256": "86d715067ca79482efe834f38377923f0faa4d3f3e8db3b58db2d233281f2df8",
+    "checkpoint_sha256": "8222aa3992e422e34daf5e73de7fbd24ba6aad8bad8dd7a91a995a42eca1d188",
+    "archived_sha256": "cb40d48482b6c482d1aff0d9d29f666e161fbc79117d0ccaca6fb8c68b601a2e",
+    "replay_sha256": "912c1862a08ed3f69e6dd65d5eb040450444cbf4fa43c5ddd607b173e374ba3e",
+    "fields": {
+      "theta": {
+        "exact_equal": false,
+        "close_rtol_1e4_atol_1e6": false
+      },
+      "quantiles": {
+        "exact_equal": false,
+        "close_rtol_1e4_atol_1e6": false
+      },
+      "nok": {
+        "exact_equal": true,
+        "close_rtol_1e4_atol_1e6": true
+      },
+      "scored": {
+        "exact_equal": true,
+        "close_rtol_1e4_atol_1e6": true
+      },
+      "admit": {
+        "exact_equal": true,
+        "close_rtol_1e4_atol_1e6": true
+      },
+      "explained": {
+        "exact_equal": true,
+        "close_rtol_1e4_atol_1e6": true
+      },
+      "slope_draws": {
+        "exact_equal": false,
+        "close_rtol_1e4_atol_1e6": false
+      }
+    },
+    "archived_scored": 999,
+    "replay_scored": 999,
+    "archived_admitted": 985,
+    "replay_admitted": 985
+  }
+]

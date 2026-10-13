@@ -1,0 +1,24 @@
+{
+  "main": {
+    "source_sha256": "2e86dd989c7711287c1d76eaca9ba448d799087e507b760336b447b1d815d803",
+    "output_sha256": "e7f6504424c456d60c611a6aeda5dc5dddc015eaabd9d582f26f6cf4b9a1f301",
+    "removed_trailing_empty_paragraphs": 7,
+    "unchanged_original_body_elements": 226,
+    "unchanged_field_instruction_fragments": 33,
+    "zotero_field_instruction_fragments": 29,
+    "changed_package_parts": [
+      "word/document.xml"
+    ]
+  },
+  "supp": {
+    "source_sha256": "5271019d2491e8a0ef6ba419beedc290336307e1369bd4b3c353ed1dc399e0b8",
+    "output_sha256": "43f66b72c4113bed2b5bf498360ef1beb392ea6bff3975c1de153a89e29090df",
+    "removed_trailing_empty_paragraphs": 19,
+    "unchanged_original_body_elements": 142,
+    "unchanged_field_instruction_fragments": 8,
+    "zotero_field_instruction_fragments": 8,
+    "changed_package_parts": [
+      "word/document.xml"
+    ]
+  }
+}

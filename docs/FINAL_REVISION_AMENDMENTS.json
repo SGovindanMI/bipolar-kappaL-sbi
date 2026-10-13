@@ -1,0 +1,77 @@
+{
+  ".gitignore": {
+    "original_sha256": "18d7c24d66e65fd22ac2ed7988dee501b78f6f5ee3ecb67eb106615c11d51555",
+    "revised_sha256": "1f715de0d790a0c50ff641ef3455dc30224510fac60f453dac62b178c9a0b6b4",
+    "reason": "Corrected-cohort release: source-verified row selection, regenerated empirical analyses and documents, and code/provenance safeguards. Original checksum manifest preserved. Citation/environment revision and reproducible documentation checks; scientific arrays unchanged in this revision."
+  },
+  "data/analysis_set_sids.csv": {
+    "original_sha256": "a3bb5e317cf8a0440570fe6f5a51da0fd05aad724b3f6bf891e42a4e0685a08c",
+    "revised_sha256": "5e334cef0ad7d28cacd38e39502a8517f85ab0639a20e950d1ec4435a425b3d0",
+    "reason": "Corrected-cohort release: source-verified row selection, regenerated empirical analyses and documents, and code/provenance safeguards. Original checksum manifest preserved. Citation/environment revision and reproducible documentation checks; scientific arrays unchanged in this revision."
+  },
+  "data/inference_v5.npz": {
+    "original_sha256": "1466c82495cd3847f5b298d1422645b8988b54283d3db76914ad8fd88cda6fa7",
+    "revised_sha256": "4a944ef85bf5ce25f63e1caa9c08d2d436f38b7520e10b31c2a55863cec6767b",
+    "reason": "Corrected-cohort release: source-verified row selection, regenerated empirical analyses and documents, and code/provenance safeguards. Original checksum manifest preserved. Citation/environment revision and reproducible documentation checks; scientific arrays unchanged in this revision."
+  },
+  "data/manuscript_numbers.json": {
+    "original_sha256": "2f74fe5a706cf1ae26c5fbb5a190abfe1ac6808223ce523446d83cb496f25cea",
+    "revised_sha256": "f7fc27a69d449e3e62a730b748a20ceac8219dba2c21bc1d39f16743828fd6e0",
+    "reason": "Corrected-cohort release: source-verified row selection, regenerated empirical analyses and documents, and code/provenance safeguards. Original checksum manifest preserved. Citation/environment revision and reproducible documentation checks; scientific arrays unchanged in this revision."
+  },
+  "data/real_analysis_set.npz": {
+    "original_sha256": "df340f5bb99680dff990902b06adfaaafd8818f011ba1dd910579924b3369275",
+    "revised_sha256": "ce0b0307d2478eabf7a1b22839f1cbc181e28fddd3c8d68b784038037c6d9256",
+    "reason": "Corrected-cohort release: source-verified row selection, regenerated empirical analyses and documents, and code/provenance safeguards. Original checksum manifest preserved. Citation/environment revision and reproducible documentation checks; scientific arrays unchanged in this revision."
+  },
+  "data/results_v5.npz": {
+    "original_sha256": "5d9d75da1a5e9cbfd8e48ad5c0a973b2ae07a1fb2bb7a107f88ca06c36a1209b",
+    "revised_sha256": "a0aee83bd44285318b50daea29b0fb014a4b1e0832d45b37187974731ef455a4",
+    "reason": "Corrected-cohort release: source-verified row selection, regenerated empirical analyses and documents, and code/provenance safeguards. Original checksum manifest preserved. Citation/environment revision and reproducible documentation checks; scientific arrays unchanged in this revision."
+  },
+  "docs/DATA.md": {
+    "original_sha256": "c78e0c6bc1deb3176c1d81db36095a77ce7c38dc9178c237526977bfd183e382",
+    "revised_sha256": "013040c235becca0e9e1bc7576419c7635c25e5287ff81d57b163cb82de2e882",
+    "reason": "Corrected-cohort release: source-verified row selection, regenerated empirical analyses and documents, and code/provenance safeguards. Original checksum manifest preserved. Citation/environment revision and reproducible documentation checks; scientific arrays unchanged in this revision."
+  },
+  "docs/source_papers.txt": {
+    "original_sha256": "b74425ac7163340c104693ea3fe31551295afaf6412195122037c09381a87e40",
+    "revised_sha256": "1cf5b511d43b01c797d43947a4fa0d351462fee8c24a0493ce90cdd623938816",
+    "reason": "Corrected-cohort release: source-verified row selection, regenerated empirical analyses and documents, and code/provenance safeguards. Original checksum manifest preserved. Citation/environment revision and reproducible documentation checks; scientific arrays unchanged in this revision."
+  },
+  "README.md": {
+    "original_sha256": "f0bc02b81108c6ef1e9d88d1862ad22f5f58b98f98c3db907df898f354e3d397",
+    "revised_sha256": "9d9f97a1cea75ba7bc4ab1661d103e5e6d3d98eb0d805e47e56d40f176c8c774",
+    "reason": "Corrected-cohort release: source-verified row selection, regenerated empirical analyses and documents, and code/provenance safeguards. Original checksum manifest preserved. Citation/environment revision and reproducible documentation checks; scientific arrays unchanged in this revision."
+  },
+  "src/analyse.py": {
+    "original_sha256": "5af030130cca594b09d96ff3a1ee2b9f52f47daf59a6aca7e584a7bbca989219",
+    "revised_sha256": "762f842eb575dd64675c9efd0257de6b40a195b81b7701636dc8a3fd226a31ed",
+    "reason": "Corrected-cohort release: source-verified row selection, regenerated empirical analyses and documents, and code/provenance safeguards. Original checksum manifest preserved. Citation/environment revision and reproducible documentation checks; scientific arrays unchanged in this revision."
+  },
+  "src/build_corpus.py": {
+    "original_sha256": "d35e8b3a13c05bc546cf878417578cc3f94de0d3804ab07153b5e99f11f0b619",
+    "revised_sha256": "b3a1f835e072abdb6e7e4b2a53ce88074ba3c9ab306c20c46539209cc651d1a6",
+    "reason": "Corrected-cohort release: source-verified row selection, regenerated empirical analyses and documents, and code/provenance safeguards. Original checksum manifest preserved. Citation/environment revision and reproducible documentation checks; scientific arrays unchanged in this revision."
+  },
+  "src/verify_provenance.py": {
+    "original_sha256": "ba80d2f300d05258b2edacce7413e7b1eaf7ebd990a0682cd1a7795f6e07198c",
+    "revised_sha256": "458e0f598bac878b35e9efbdaf54aee5a6d33df5601dd07cfbf56e8a428bffaf",
+    "reason": "Corrected-cohort release: source-verified row selection, regenerated empirical analyses and documents, and code/provenance safeguards. Original checksum manifest preserved. Citation/environment revision and reproducible documentation checks; scientific arrays unchanged in this revision."
+  },
+  "src/verify_release.py": {
+    "original_sha256": "497137cc686d510525ff45ff07833a2d39f1a0e6aabaf93aad12c9ce889e4c64",
+    "revised_sha256": "ac7ed3f39142d439ec63d4831a503eb90ad261f72607b2cbe1963a5ebb899f80",
+    "reason": "Corrected-cohort release: source-verified row selection, regenerated empirical analyses and documents, and code/provenance safeguards. Original checksum manifest preserved. Citation/environment revision and reproducible documentation checks; scientific arrays unchanged in this revision."
+  },
+  "tests/test_provenance.py": {
+    "original_sha256": "c758e2432764d8c854c5fafd0a81764af6afafc3398385a0af09a7230d94ce78",
+    "revised_sha256": "45b7da281231527cdb009b543b6625eaa4d1bba114853ea08d1d1777347cf5bb",
+    "reason": "Corrected-cohort release: source-verified row selection, regenerated empirical analyses and documents, and code/provenance safeguards. Original checksum manifest preserved. Citation/environment revision and reproducible documentation checks; scientific arrays unchanged in this revision."
+  },
+  "src/load.py": {
+    "original_sha256": "3fedcb85898df3be7c6dad45271ec8d55fd378fcf1bab14be7df08548692c3ab",
+    "revised_sha256": "08e3407bfc589e5fa78d42f1f1fe83366b1b58b79c0b2f70b36f64168ce4f4e4",
+    "reason": "Corrected-cohort release Citation/environment revision and reproducible documentation checks; scientific arrays unchanged in this revision."
+  }
+}

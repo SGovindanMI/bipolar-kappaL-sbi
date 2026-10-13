@@ -1,0 +1,23 @@
+{
+  "checked_on": "2026-10-10",
+  "papers": [
+    {
+      "reference_number": 5,
+      "file": "materials-10-00763-v2.pdf",
+      "sha256": "79f3ab7553ef9774114e36923e65cec9ff1c55d074d4d3304ad569fa82189b49",
+      "evidence": "Full text verified from user-supplied PDF (9 pages). Pages 3-5, Eq. (5), Table 1 and Fig. 4 support model-assisted bipolar decomposition; page 8 records Hall measurements. Not independent component ground truth."
+    },
+    {
+      "reference_number": 21,
+      "file": "s11664-999-0211-y.pdf",
+      "sha256": "debbe8e97469f57a5bfa25a0a80f61dc6796deb10d5d5369d44cffedbb5e56d7",
+      "evidence": "Full text verified from user-supplied PDF (4 pages; journal pages 869-872). Approximate Seebeck-maximum gap relation; pages 870-871 examine mobility, effective-mass and scattering dependence and narrow-gap statistics. Not an independent validation using the same Seebeck data."
+    },
+    {
+      "reference_number": 2,
+      "file": "putatunda2019.pdf",
+      "sha256": "5c2ab0c5831f94b7679edb1de7c7a81690eb3cc0dfbf8fe9003d1cfd1157fb30",
+      "evidence": "Full text verified from user-supplied PDF (7 pages; journal pages 49-55). Equations (4) and (7) distinguish open-circuit conductivity; pages 51-54 and Table 2 support scattering- and band-structure-dependent departures from the Kim estimate. No universal error bound or corpus-specific correction follows."
+    }
+  ]
+}

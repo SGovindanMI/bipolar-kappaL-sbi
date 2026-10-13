@@ -1,0 +1,432 @@
+{
+  "inference": {
+    "model_version": "6.0.1-research",
+    "spec": {
+      "version": "6.0.1-research",
+      "variant": "mobility_extra",
+      "names": [
+        "log10N_net",
+        "log10m_maj",
+        "log10m_min",
+        "log10mu300",
+        "p_mu",
+        "log10Eg",
+        "log10A",
+        "w",
+        "r",
+        "kmin",
+        "log10mobility_ratio",
+        "p_mu_min",
+        "r_min",
+        "B_extra"
+      ],
+      "lower": [
+        16.0,
+        -1.3,
+        -1.7,
+        null,
+        -3.5,
+        -1.5,
+        -1.0,
+        0.0,
+        -1.0,
+        0.0,
+        -1.0,
+        -3.5,
+        -1.0,
+        0.0
+      ],
+      "upper": [
+        21.0,
+        0.7,
+        1.0,
+        null,
+        2.0,
+        0.55,
+        1.2,
+        3.0,
+        2.0,
+        0.7,
+        1.0,
+        2.0,
+        2.0,
+        0.05
+      ],
+      "conditional_mu": "3.1 - 0.5*(log10N_net-17) + Uniform(-1.8,1.2)",
+      "spline_knots": null,
+      "spline_limits": null,
+      "spline": null,
+      "extra": "B_extra*(T/300)^3, separate from lattice",
+      "noise": 0.02,
+      "zT_max": 3.5
+    },
+    "checkpoint_sha256": "e6bc720f455015c01164a5e77eb34ded528a4a578f327714d023240453622a94",
+    "source_sha256": "47d7f2869f92b67402600ecdc3c2878f511baa662384981b57ec8b41079dd1b0",
+    "channels": [
+      "sigma",
+      "S_uVK",
+      "kappa",
+      "kappa_L",
+      "kappa_bip",
+      "Luni",
+      "kappa_e",
+      "kappa_extra"
+    ],
+    "slope_names": [
+      "A",
+      "B",
+      "C",
+      "Cprime_bip",
+      "Cprime_all"
+    ],
+    "final_fraction_channels": [
+      "lattice",
+      "bipolar",
+      "extra"
+    ],
+    "matching_parameter_truth": true,
+    "seed": 6134,
+    "draws": 128,
+    "budget": 8192,
+    "batch": 32,
+    "min_draws": 64,
+    "admission_threshold": 0.75,
+    "bands": "latent 2.5 and 97.5 percentiles, no observation noise",
+    "prior_restriction": "conditional parameter box and peak zT <=3.5 on 16-point observation window",
+    "seconds": 23.469576835632324
+  },
+  "source": {
+    "spec": {
+      "version": "6.0.1-research",
+      "variant": "mobility_extra",
+      "names": [
+        "log10N_net",
+        "log10m_maj",
+        "log10m_min",
+        "log10mu300",
+        "p_mu",
+        "log10Eg",
+        "log10A",
+        "w",
+        "r",
+        "kmin",
+        "log10mobility_ratio",
+        "p_mu_min",
+        "r_min",
+        "B_extra"
+      ],
+      "lower": [
+        16.0,
+        -1.3,
+        -1.7,
+        null,
+        -3.5,
+        -1.5,
+        -1.0,
+        0.0,
+        -1.0,
+        0.0,
+        -1.0,
+        -3.5,
+        -1.0,
+        0.0
+      ],
+      "upper": [
+        21.0,
+        0.7,
+        1.0,
+        null,
+        2.0,
+        0.55,
+        1.2,
+        3.0,
+        2.0,
+        0.7,
+        1.0,
+        2.0,
+        2.0,
+        0.05
+      ],
+      "conditional_mu": "3.1 - 0.5*(log10N_net-17) + Uniform(-1.8,1.2)",
+      "spline_knots": null,
+      "spline_limits": null,
+      "spline": null,
+      "extra": "B_extra*(T/300)^3, separate from lattice",
+      "noise": 0.02,
+      "zT_max": 3.5
+    },
+    "seed": 6133,
+    "n": 1000,
+    "attempts": 4096,
+    "rejected_zT": 417,
+    "narrow": true,
+    "seconds": 1.3378024101257324,
+    "truth_channels": [
+      "kappa_L",
+      "kappa_bip",
+      "Luni",
+      "kappa",
+      "kappa_extra"
+    ]
+  },
+  "n": 1000,
+  "scored": {
+    "n": 999,
+    "channels": {
+      "lattice": {
+        "coverage": 0.923923923923924,
+        "median_signed_error": -0.01384186863503345,
+        "median_absolute_error": 0.06967415779989966,
+        "relative_error_threshold": 1e-12,
+        "relative_error_points": 15984,
+        "median_signed_relative_error": -0.012522029894420202,
+        "median_absolute_relative_error": 0.07052087661292955
+      },
+      "bipolar": {
+        "coverage": 0.9487612612612613,
+        "median_signed_error": 7.785074176032508e-06,
+        "median_absolute_error": 0.021045214605896766,
+        "relative_error_threshold": 1e-12,
+        "relative_error_points": 15240,
+        "median_signed_relative_error": 0.03658527369817399,
+        "median_absolute_relative_error": 0.28821161800374556
+      },
+      "Luni": {
+        "coverage": 0.863988988988989,
+        "median_signed_error": -6.711184377662059e-11,
+        "median_absolute_error": 1.9419694638776467e-09,
+        "relative_error_threshold": 1e-12,
+        "relative_error_points": 15984,
+        "median_signed_relative_error": -0.002743746405825645,
+        "median_absolute_relative_error": 0.08460471733439294
+      },
+      "total": {
+        "coverage": 0.9900525525525525,
+        "median_signed_error": -5.697706520840784e-05,
+        "median_absolute_error": 0.06489605490243888,
+        "relative_error_threshold": 1e-12,
+        "relative_error_points": 15984,
+        "median_signed_relative_error": -3.149671683514036e-05,
+        "median_absolute_relative_error": 0.022523811033024872
+      },
+      "extra": {
+        "coverage": 0.8858858858858859,
+        "median_signed_error": 0.0011825580078130438,
+        "median_absolute_error": 0.042970215583241274,
+        "relative_error_threshold": 1e-12,
+        "relative_error_points": 15984,
+        "median_signed_relative_error": 0.007940400186048507,
+        "median_absolute_relative_error": 0.2390593596674455
+      }
+    },
+    "parameter_coverage": {
+      "log10N_net": 0.8528528528528528,
+      "log10m_maj": 0.8338338338338338,
+      "log10m_min": 0.8418418418418419,
+      "log10mu300": 0.8528528528528528,
+      "p_mu": 0.8588588588588588,
+      "log10Eg": 0.9209209209209209,
+      "log10A": 0.8948948948948949,
+      "w": 0.8778778778778779,
+      "r": 0.8498498498498499,
+      "kmin": 0.8618618618618619,
+      "log10mobility_ratio": 0.8578578578578578,
+      "p_mu_min": 0.8778778778778779,
+      "r_min": 0.8508508508508509,
+      "B_extra": 0.8858858858858859
+    },
+    "false_assignment": {
+      "numerator": 4,
+      "denominator": 334,
+      "definition": "true bipolar/true total < .02; median inferred bipolar/true total > .1 at Thi"
+    },
+    "slope": {
+      "all_span": {
+        "n": 403,
+        "median_error": -0.02125797974358079,
+        "percentiles_10_25_75_90": [
+          -0.23936828823202008,
+          -0.11767221441617237,
+          0.10035055312935881,
+          0.3130052866058311
+        ]
+      },
+      "positive_A": {
+        "n": 403,
+        "median_error": -0.02125797974358079,
+        "percentiles_10_25_75_90": [
+          -0.23936828823202008,
+          -0.11767221441617237,
+          0.10035055312935881,
+          0.3130052866058311
+        ]
+      },
+      "original_four": {
+        "n": 333,
+        "median_error": -0.02125797974358079,
+        "percentiles_10_25_75_90": [
+          -0.17596119990374745,
+          -0.1016550820800135,
+          0.07124107010885597,
+          0.21741692080246297
+        ]
+      },
+      "all_five": {
+        "n": 324,
+        "median_error": -0.020928694245331836,
+        "percentiles_10_25_75_90": [
+          -0.16935954014920862,
+          -0.10141285644701281,
+          0.06728047383228491,
+          0.21683687153681427
+        ]
+      }
+    }
+  },
+  "admitted": {
+    "n": 978,
+    "channels": {
+      "lattice": {
+        "coverage": 0.9252939672801636,
+        "median_signed_error": -0.013813955222412022,
+        "median_absolute_error": 0.06857186624028416,
+        "relative_error_threshold": 1e-12,
+        "relative_error_points": 15648,
+        "median_signed_relative_error": -0.012530777027976838,
+        "median_absolute_relative_error": 0.06880625215537892
+      },
+      "bipolar": {
+        "coverage": 0.9550102249488752,
+        "median_signed_error": 1.0165043025683014e-06,
+        "median_absolute_error": 0.018905528521168388,
+        "relative_error_threshold": 1e-12,
+        "relative_error_points": 14904,
+        "median_signed_relative_error": 0.031417011749165336,
+        "median_absolute_relative_error": 0.28707948522814397
+      },
+      "Luni": {
+        "coverage": 0.865989263803681,
+        "median_signed_error": -5.5218021891465115e-11,
+        "median_absolute_error": 1.910456834625592e-09,
+        "relative_error_threshold": 1e-12,
+        "relative_error_points": 15648,
+        "median_signed_relative_error": -0.0023020958037069097,
+        "median_absolute_relative_error": 0.08326455835140577
+      },
+      "total": {
+        "coverage": 0.9955265848670757,
+        "median_signed_error": -0.0013414613369105433,
+        "median_absolute_error": 0.062061883970138454,
+        "relative_error_threshold": 1e-12,
+        "relative_error_points": 15648,
+        "median_signed_relative_error": -0.0008421393531386197,
+        "median_absolute_relative_error": 0.021967368737453606
+      },
+      "extra": {
+        "coverage": 0.8895705521472392,
+        "median_signed_error": 0.0010480221116604474,
+        "median_absolute_error": 0.042306861469436324,
+        "relative_error_threshold": 1e-12,
+        "relative_error_points": 15648,
+        "median_signed_relative_error": 0.007100606629600586,
+        "median_absolute_relative_error": 0.23299734895005422
+      }
+    },
+    "parameter_coverage": {
+      "log10N_net": 0.8517382413087935,
+      "log10m_maj": 0.8333333333333334,
+      "log10m_min": 0.8425357873210634,
+      "log10mu300": 0.8537832310838446,
+      "p_mu": 0.8650306748466258,
+      "log10Eg": 0.9233128834355828,
+      "log10A": 0.8957055214723927,
+      "w": 0.8813905930470347,
+      "r": 0.852760736196319,
+      "kmin": 0.8609406952965235,
+      "log10mobility_ratio": 0.8650306748466258,
+      "p_mu_min": 0.8824130879345603,
+      "r_min": 0.8548057259713702,
+      "B_extra": 0.8895705521472392
+    },
+    "false_assignment": {
+      "numerator": 3,
+      "denominator": 333,
+      "definition": "true bipolar/true total < .02; median inferred bipolar/true total > .1 at Thi"
+    },
+    "slope": {
+      "all_span": {
+        "n": 394,
+        "median_error": -0.018307728778850785,
+        "percentiles_10_25_75_90": [
+          -0.2307581503024079,
+          -0.1154817581102141,
+          0.10297668521590143,
+          0.32845421917994333
+        ]
+      },
+      "positive_A": {
+        "n": 394,
+        "median_error": -0.018307728778850785,
+        "percentiles_10_25_75_90": [
+          -0.2307581503024079,
+          -0.1154817581102141,
+          0.10297668521590143,
+          0.32845421917994333
+        ]
+      },
+      "original_four": {
+        "n": 331,
+        "median_error": -0.02059940874708288,
+        "percentiles_10_25_75_90": [
+          -0.17730203052002347,
+          -0.10261427110278978,
+          0.07178283489749474,
+          0.21753802678414336
+        ]
+      },
+      "all_five": {
+        "n": 322,
+        "median_error": -0.019593529353734263,
+        "percentiles_10_25_75_90": [
+          -0.1701850983421652,
+          -0.1015743402023466,
+          0.06746319091295225,
+          0.21690062176276567
+        ]
+      }
+    }
+  },
+  "denominator_definition": "Coverage/error pooled across curve-temperature points within each stated mask",
+  "bipolar_strata": [
+    {
+      "lower": 0,
+      "upper": 0.02,
+      "n": 334,
+      "scored": 334,
+      "admitted": 333
+    },
+    {
+      "lower": 0.02,
+      "upper": 0.1,
+      "n": 136,
+      "scored": 135,
+      "admitted": 133
+    },
+    {
+      "lower": 0.1,
+      "upper": 0.5,
+      "n": 245,
+      "scored": 245,
+      "admitted": 237
+    },
+    {
+      "lower": 0.5,
+      "upper": 1.00001,
+      "n": 285,
+      "scored": 285,
+      "admitted": 275
+    }
+  ],
+  "true_lattice_upturn_fraction": 0.0,
+  "matched_final_bipolar_fraction_bias": 9.051666646341803e-05
+}

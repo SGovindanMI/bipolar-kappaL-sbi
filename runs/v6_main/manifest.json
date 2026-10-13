@@ -1,0 +1,39 @@
+{
+  "version": "6.0.1-research",
+  "mode": "production",
+  "variants": [
+    "mobility_spline",
+    "mobility_extra",
+    "mobility",
+    "spline",
+    "extra"
+  ],
+  "real": true,
+  "simulations": 600000,
+  "epochs": 900,
+  "test_n": 6000,
+  "narrow_n": 1000,
+  "source_hashes": {
+    "relaxed.py": "6b8422090af399ca201a6590d03291916ee38978c3193a0639dcc995f4ef268e",
+    "relaxed_analysis.py": "f00466781471698b9207535c12466950397d8ad8047a38c2282e102d578216d4",
+    "relaxed_inference.py": "374ef7e6d0dbb9e97032ea0bcc0bdd837174c96bac0b289126de11b8bb2c19d5",
+    "relaxed_posterior.py": "36f9f5b5bc0c832dfcc2c8979123ac0cd7dbb4cf3ba3d140e0d810f8e7c9519f"
+  },
+  "driver_hash": "d86db9eb5dd806c46ba7ec5e39ff7da6b773ab2c60fcdd987744537d88f070ec",
+  "base_solver_sha256": "5045fb6702e382c2eac42e51611533ae9c2ef396091d8f11690440c737d450c0",
+  "frozen_corpus_sha256": "df340f5bb99680dff990902b06adfaaafd8818f011ba1dd910579924b3369275",
+  "fixtures_sha256": {
+    "control_narrow_v5.npz": "86d715067ca79482efe834f38377923f0faa4d3f3e8db3b58db2d233281f2df8",
+    "control_narrow_v5_inference.npz": "cb40d48482b6c482d1aff0d9d29f666e161fbc79117d0ccaca6fb8c68b601a2e",
+    "upturn_narrow_v5.npz": "c9e170c707c2128eb2bae5ec9bf4d1a6f9f9ca0504eb9ad04dc49a91de4c94cd",
+    "upturn_narrow_v5_inference.npz": "3d3b5bfa52bb0a9b15b96fdf1e75e27e2cc9eea69bac6a7ee25ede812d9d3c7e"
+  },
+  "environment": {
+    "python": "3.11.9",
+    "numpy": "2.4.6",
+    "scipy": "1.17.1",
+    "torch": "2.11.0+cu128",
+    "cuda": "12.8",
+    "gpu": "NVIDIA GeForce RTX 5060 Laptop GPU"
+  }
+}

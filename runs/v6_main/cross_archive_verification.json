@@ -1,0 +1,74 @@
+[
+  {
+    "file": "runs\\v6_main\\cross_model\\baseline__mobility_extra.npz",
+    "curves": 1000,
+    "scored": 662,
+    "reconstructed_curves": 6
+  },
+  {
+    "file": "runs\\v6_main\\cross_model\\baseline__mobility_spline.npz",
+    "curves": 1000,
+    "scored": 164,
+    "reconstructed_curves": 6
+  },
+  {
+    "file": "runs\\v6_main\\cross_model\\extra__mobility_extra.npz",
+    "curves": 1000,
+    "scored": 743,
+    "reconstructed_curves": 6
+  },
+  {
+    "file": "runs\\v6_main\\cross_model\\extra__mobility_spline.npz",
+    "curves": 1000,
+    "scored": 145,
+    "reconstructed_curves": 6
+  },
+  {
+    "file": "runs\\v6_main\\cross_model\\mobility__mobility_extra.npz",
+    "curves": 1000,
+    "scored": 867,
+    "reconstructed_curves": 6
+  },
+  {
+    "file": "runs\\v6_main\\cross_model\\mobility__mobility_spline.npz",
+    "curves": 1000,
+    "scored": 312,
+    "reconstructed_curves": 6
+  },
+  {
+    "file": "runs\\v6_main\\cross_model\\mobility_extra__mobility_extra.npz",
+    "curves": 1000,
+    "scored": 999,
+    "reconstructed_curves": 6
+  },
+  {
+    "file": "runs\\v6_main\\cross_model\\mobility_extra__mobility_spline.npz",
+    "curves": 1000,
+    "scored": 268,
+    "reconstructed_curves": 6
+  },
+  {
+    "file": "runs\\v6_main\\cross_model\\mobility_spline__mobility_extra.npz",
+    "curves": 1000,
+    "scored": 999,
+    "reconstructed_curves": 6
+  },
+  {
+    "file": "runs\\v6_main\\cross_model\\mobility_spline__mobility_spline.npz",
+    "curves": 1000,
+    "scored": 996,
+    "reconstructed_curves": 6
+  },
+  {
+    "file": "runs\\v6_main\\cross_model\\spline__mobility_extra.npz",
+    "curves": 1000,
+    "scored": 781,
+    "reconstructed_curves": 6
+  },
+  {
+    "file": "runs\\v6_main\\cross_model\\spline__mobility_spline.npz",
+    "curves": 1000,
+    "scored": 741,
+    "reconstructed_curves": 6
+  }
+]

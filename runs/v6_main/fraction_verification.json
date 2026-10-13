@@ -1,0 +1,344 @@
+[
+  {
+    "file": "runs\\v6_main\\extra\\base_test_inference.npz",
+    "sha256": "b0b233c0323f099c31e9daf0b67f610e9f0b8e84f304a02407460e760e99954d",
+    "finite_matched_draws_at_750K": 305192,
+    "bounds_and_ratio_identity": "passed"
+  },
+  {
+    "file": "runs\\v6_main\\extra\\mobility_high_inference.npz",
+    "sha256": "5c448beb1a79269208b81a2a481954691252fd78a56661da00c0fab9e162bcf1",
+    "finite_matched_draws_at_750K": 33221,
+    "bounds_and_ratio_identity": "passed"
+  },
+  {
+    "file": "runs\\v6_main\\extra\\mobility_low_inference.npz",
+    "sha256": "d9d685497aff91707189effb861fc385db2c827fe132d2920e0f2c8d78e98192",
+    "finite_matched_draws_at_750K": 39771,
+    "bounds_and_ratio_identity": "passed"
+  },
+  {
+    "file": "runs\\v6_main\\extra\\narrow_control_inference.npz",
+    "sha256": "cc0b358e157fcd494963f6ef723b14517d58718d9442f536c8f85d919f09c9af",
+    "finite_matched_draws_at_750K": 50247,
+    "bounds_and_ratio_identity": "passed"
+  },
+  {
+    "file": "runs\\v6_main\\extra\\narrow_inference.npz",
+    "sha256": "acbbe114b5d5ec0dee4f34577c83306ea6b27b81470b3bd27ae3972a9463efc3",
+    "finite_matched_draws_at_750K": 54962,
+    "bounds_and_ratio_identity": "passed"
+  },
+  {
+    "file": "runs\\v6_main\\extra\\narrow_upturn_inference.npz",
+    "sha256": "438c92725f6fc04b6c42ad24cda052000ff1a237f5c6adf64ec4d7b2b398c0c0",
+    "finite_matched_draws_at_750K": 29581,
+    "bounds_and_ratio_identity": "passed"
+  },
+  {
+    "file": "runs\\v6_main\\extra\\real_inference.npz",
+    "sha256": "1b2b8eca870017e52ec6bf3274b9cb4f389b557e7112c0df49f32a5ec9e1374f",
+    "finite_matched_draws_at_750K": 545903,
+    "bounds_and_ratio_identity": "passed"
+  },
+  {
+    "file": "runs\\v6_main\\extra\\test_inference.npz",
+    "sha256": "c9e30e28705679dd0d8f5e5b270841d5d5b8c192f8a46ac601ce990b194aac97",
+    "finite_matched_draws_at_750K": 314802,
+    "bounds_and_ratio_identity": "passed"
+  },
+  {
+    "file": "runs\\v6_main\\extra\\wide_upturn_inference.npz",
+    "sha256": "789ffd086d95b070c40e284870578d9aac779073555a850aef1bf9d57aa82367",
+    "finite_matched_draws_at_750K": 18433,
+    "bounds_and_ratio_identity": "passed"
+  },
+  {
+    "file": "runs\\v6_main\\mobility\\base_test_inference.npz",
+    "sha256": "19905786c2b15027fecfd2f31f33317ae4b2180a2c5f509863f0c2a6fee8c748",
+    "finite_matched_draws_at_750K": 307565,
+    "bounds_and_ratio_identity": "passed"
+  },
+  {
+    "file": "runs\\v6_main\\mobility\\mobility_high_inference.npz",
+    "sha256": "0bba8aff163d476667358c9d31e6976205517932ff231df71d23272acbcd0f38",
+    "finite_matched_draws_at_750K": 52558,
+    "bounds_and_ratio_identity": "passed"
+  },
+  {
+    "file": "runs\\v6_main\\mobility\\mobility_low_inference.npz",
+    "sha256": "7004cf2dd6076f7a92bed79cf07694311abc77aa9920e585ee452a15a26158bb",
+    "finite_matched_draws_at_750K": 52390,
+    "bounds_and_ratio_identity": "passed"
+  },
+  {
+    "file": "runs\\v6_main\\mobility\\narrow_control_inference.npz",
+    "sha256": "c0ae2026a437d07157ae109595635eaec22ee46ef79770868198a6dc875fe7e2",
+    "finite_matched_draws_at_750K": 50522,
+    "bounds_and_ratio_identity": "passed"
+  },
+  {
+    "file": "runs\\v6_main\\mobility\\narrow_inference.npz",
+    "sha256": "2258dd523cab4e1f06cbdbaa303d3eab305b092d4f14fc44e58719c4bab2b3a5",
+    "finite_matched_draws_at_750K": 52736,
+    "bounds_and_ratio_identity": "passed"
+  },
+  {
+    "file": "runs\\v6_main\\mobility\\narrow_upturn_inference.npz",
+    "sha256": "c66fec909d5650edb7945ee2085054045de9c011523d12f8f37614580517f3df",
+    "finite_matched_draws_at_750K": 28798,
+    "bounds_and_ratio_identity": "passed"
+  },
+  {
+    "file": "runs\\v6_main\\mobility\\real_inference.npz",
+    "sha256": "d5a1188b89497e074feb33cbaf2d0151ed24d81abab087124cbb35cb15b62e82",
+    "finite_matched_draws_at_750K": 868406,
+    "bounds_and_ratio_identity": "passed"
+  },
+  {
+    "file": "runs\\v6_main\\mobility\\test_inference.npz",
+    "sha256": "3fa09f25f524c781116e26d52f51387fef75282a2080d98c734d45f09bea9219",
+    "finite_matched_draws_at_750K": 305312,
+    "bounds_and_ratio_identity": "passed"
+  },
+  {
+    "file": "runs\\v6_main\\mobility\\wide_upturn_inference.npz",
+    "sha256": "952d0c7f53e3da2796d4f6385113aa3d69a435ac48e439359806da783dc50c6e",
+    "finite_matched_draws_at_750K": 15843,
+    "bounds_and_ratio_identity": "passed"
+  },
+  {
+    "file": "runs\\v6_main\\mobility_extra\\base_test_inference.npz",
+    "sha256": "7fba5ec871f682ad27ebf70433355f3aca5fc3a1efc8351f73034dd069615751",
+    "finite_matched_draws_at_750K": 304444,
+    "bounds_and_ratio_identity": "passed"
+  },
+  {
+    "file": "runs\\v6_main\\mobility_extra\\mobility_high_inference.npz",
+    "sha256": "edc3d4613b48a130173af450bf7f1352738bd7193e450f6e665d59b05c11be9a",
+    "finite_matched_draws_at_750K": 52023,
+    "bounds_and_ratio_identity": "passed"
+  },
+  {
+    "file": "runs\\v6_main\\mobility_extra\\mobility_low_inference.npz",
+    "sha256": "cf13b105f927bd5fb859c0a83fa3ccd75ef5575188de18a844ff1d83bbc88f3d",
+    "finite_matched_draws_at_750K": 51882,
+    "bounds_and_ratio_identity": "passed"
+  },
+  {
+    "file": "runs\\v6_main\\mobility_extra\\narrow_control_inference.npz",
+    "sha256": "e084f83b65fe2c57014eb031406482d450cc937dbb9590cc40e2ff34e0625fbc",
+    "finite_matched_draws_at_750K": 50113,
+    "bounds_and_ratio_identity": "passed"
+  },
+  {
+    "file": "runs\\v6_main\\mobility_extra\\narrow_inference.npz",
+    "sha256": "87b79f9acee4f05840793babf2943500215dc00b098ee6c6159851d8c7e62391",
+    "finite_matched_draws_at_750K": 51599,
+    "bounds_and_ratio_identity": "passed"
+  },
+  {
+    "file": "runs\\v6_main\\mobility_extra\\narrow_upturn_inference.npz",
+    "sha256": "3115da4b52343ebe04e96b3e121241351d09a599ca95629f9f40c2a2342f0656",
+    "finite_matched_draws_at_750K": 31885,
+    "bounds_and_ratio_identity": "passed"
+  },
+  {
+    "file": "runs\\v6_main\\mobility_extra\\real_inference.npz",
+    "sha256": "f7822c589d809907105951d0722929735508db1af09abd83ec80dede1b6bd17b",
+    "finite_matched_draws_at_750K": 683673,
+    "bounds_and_ratio_identity": "passed"
+  },
+  {
+    "file": "runs\\v6_main\\mobility_extra\\test_inference.npz",
+    "sha256": "31bce2fd1be4d83da22e84e81ec3052aa8b6661ec43a764d8b75e4a5b10bf8f5",
+    "finite_matched_draws_at_750K": 305375,
+    "bounds_and_ratio_identity": "passed"
+  },
+  {
+    "file": "runs\\v6_main\\mobility_extra\\wide_upturn_inference.npz",
+    "sha256": "e32b12704e2cbdec31ebdcfeefa131062bb644ea92cc2cb86f2618f29dc2409c",
+    "finite_matched_draws_at_750K": 22675,
+    "bounds_and_ratio_identity": "passed"
+  },
+  {
+    "file": "runs\\v6_main\\mobility_spline\\base_test_inference.npz",
+    "sha256": "5dea04d7d4bf1561b67e401dc3503b11a25f01cb59658baac9b318e3f6096f12",
+    "finite_matched_draws_at_750K": 307479,
+    "bounds_and_ratio_identity": "passed"
+  },
+  {
+    "file": "runs\\v6_main\\mobility_spline\\mobility_high_inference.npz",
+    "sha256": "8cfa9504b11a9e617ecdcb499cf84f490d8453c0566a2555543123599a5bcaa0",
+    "finite_matched_draws_at_750K": 52510,
+    "bounds_and_ratio_identity": "passed"
+  },
+  {
+    "file": "runs\\v6_main\\mobility_spline\\mobility_low_inference.npz",
+    "sha256": "c2ed9f11868faa5d8b0e76d2e7ea046d76587f1639eaeaf6d25fae4f1af322ba",
+    "finite_matched_draws_at_750K": 52480,
+    "bounds_and_ratio_identity": "passed"
+  },
+  {
+    "file": "runs\\v6_main\\mobility_spline\\narrow_control_inference.npz",
+    "sha256": "2756910bb9d3e5b18f969c65cbd92668915ab337083e026e394a18efcca110db",
+    "finite_matched_draws_at_750K": 50545,
+    "bounds_and_ratio_identity": "passed"
+  },
+  {
+    "file": "runs\\v6_main\\mobility_spline\\narrow_inference.npz",
+    "sha256": "3dfceaa394ef5d42a9a7077be83a923ae9a287bc29997f671c249c634c1e7b9b",
+    "finite_matched_draws_at_750K": 50499,
+    "bounds_and_ratio_identity": "passed"
+  },
+  {
+    "file": "runs\\v6_main\\mobility_spline\\narrow_upturn_inference.npz",
+    "sha256": "46640eb0f99f55e5df63a0282965ce1eaf4fbe68c98f685cfeba7976e8c52e0f",
+    "finite_matched_draws_at_750K": 50864,
+    "bounds_and_ratio_identity": "passed"
+  },
+  {
+    "file": "runs\\v6_main\\mobility_spline\\real_inference.npz",
+    "sha256": "7a17d094bea25218cbdd0c2da4f6415f252564aa39a9ec48c0e645f123edbfd4",
+    "finite_matched_draws_at_750K": 896356,
+    "bounds_and_ratio_identity": "passed"
+  },
+  {
+    "file": "runs\\v6_main\\mobility_spline\\test_inference.npz",
+    "sha256": "b9fdb0e03b817f9cfd8578ca9c22bd5a955d479ca1cf278f57484635c751bd13",
+    "finite_matched_draws_at_750K": 296232,
+    "bounds_and_ratio_identity": "passed"
+  },
+  {
+    "file": "runs\\v6_main\\mobility_spline\\wide_upturn_inference.npz",
+    "sha256": "5227d64848e5355f9787bb8c38858fead66f8ef4bc90adfd0b2e5f1fb1d24013",
+    "finite_matched_draws_at_750K": 55168,
+    "bounds_and_ratio_identity": "passed"
+  },
+  {
+    "file": "runs\\v6_main\\spline\\base_test_inference.npz",
+    "sha256": "1d3c1cdaf8a372857446bd0e4fcb33c68fe553fad07efdba9dd060313cc8164b",
+    "finite_matched_draws_at_750K": 307783,
+    "bounds_and_ratio_identity": "passed"
+  },
+  {
+    "file": "runs\\v6_main\\spline\\mobility_high_inference.npz",
+    "sha256": "8382971a6d5320e8ea2f05bee333fcb112b43e11cf628c843281523dad01b1bf",
+    "finite_matched_draws_at_750K": 35937,
+    "bounds_and_ratio_identity": "passed"
+  },
+  {
+    "file": "runs\\v6_main\\spline\\mobility_low_inference.npz",
+    "sha256": "180d586dddb88cf6d19470cb9942fdbc70520495b10c2ede5cf65f88f09f9110",
+    "finite_matched_draws_at_750K": 44483,
+    "bounds_and_ratio_identity": "passed"
+  },
+  {
+    "file": "runs\\v6_main\\spline\\narrow_control_inference.npz",
+    "sha256": "3baccc5391146bd24e6b163a56a1e9bd92a854560217ea6ba3defa9694e49893",
+    "finite_matched_draws_at_750K": 50472,
+    "bounds_and_ratio_identity": "passed"
+  },
+  {
+    "file": "runs\\v6_main\\spline\\narrow_inference.npz",
+    "sha256": "4c7135867640cef464c71139e46b3ba33fdfbb21e422e069bae2bc7c726cfbcc",
+    "finite_matched_draws_at_750K": 52612,
+    "bounds_and_ratio_identity": "passed"
+  },
+  {
+    "file": "runs\\v6_main\\spline\\narrow_upturn_inference.npz",
+    "sha256": "0fc5116fe18c13e85c22d5448512860fdeed9e8ee0c92e57642372d8ad30d1a3",
+    "finite_matched_draws_at_750K": 50863,
+    "bounds_and_ratio_identity": "passed"
+  },
+  {
+    "file": "runs\\v6_main\\spline\\real_inference.npz",
+    "sha256": "c6f2cca59e73b8e56e01f4f005764e7f039fa3bcd7a4c8b49e74acd706ec99ca",
+    "finite_matched_draws_at_750K": 880045,
+    "bounds_and_ratio_identity": "passed"
+  },
+  {
+    "file": "runs\\v6_main\\spline\\test_inference.npz",
+    "sha256": "d6d9c3305e80f380eda23b679742b266a4841a107b67fda22b0b77991d9d5733",
+    "finite_matched_draws_at_750K": 303410,
+    "bounds_and_ratio_identity": "passed"
+  },
+  {
+    "file": "runs\\v6_main\\spline\\wide_upturn_inference.npz",
+    "sha256": "3b1d2f00cb9a1b16ecf9191c86bb2cfbf028410be76537a2d10fc0cee1aa1b55",
+    "finite_matched_draws_at_750K": 55123,
+    "bounds_and_ratio_identity": "passed"
+  },
+  {
+    "file": "runs\\v6_main\\cross_model\\baseline__mobility_extra.npz",
+    "sha256": "df4b971f5e06f027ddda0c7248079eee6b9c0e68adae8e581ed858dd58d5e555",
+    "finite_matched_draws_at_750K": 31729,
+    "bounds_and_ratio_identity": "passed"
+  },
+  {
+    "file": "runs\\v6_main\\cross_model\\baseline__mobility_spline.npz",
+    "sha256": "f460a22c959b239814ffa7785a31e6d2b934e73d12218c306425d7e29590ae66",
+    "finite_matched_draws_at_750K": 6710,
+    "bounds_and_ratio_identity": "passed"
+  },
+  {
+    "file": "runs\\v6_main\\cross_model\\extra__mobility_extra.npz",
+    "sha256": "fcd9a95d687693ac48ecc2343f42e55c5ea989ca95e852efeda5e2cd5b6a292e",
+    "finite_matched_draws_at_750K": 36422,
+    "bounds_and_ratio_identity": "passed"
+  },
+  {
+    "file": "runs\\v6_main\\cross_model\\extra__mobility_spline.npz",
+    "sha256": "5ea2becc4ad18c3fceb4150a15bc1eb5bb6d438072f462ef39348a68d06b0801",
+    "finite_matched_draws_at_750K": 5364,
+    "bounds_and_ratio_identity": "passed"
+  },
+  {
+    "file": "runs\\v6_main\\cross_model\\mobility__mobility_extra.npz",
+    "sha256": "4f4c09035a5a8a52b772252df43e72693789fb75377ba9d6490dc8c5d430cda7",
+    "finite_matched_draws_at_750K": 42723,
+    "bounds_and_ratio_identity": "passed"
+  },
+  {
+    "file": "runs\\v6_main\\cross_model\\mobility__mobility_spline.npz",
+    "sha256": "3964f38ef7994c82853a85d1d43bb1ad4a2554d3a74dc0ea94dfc624dcd6b7da",
+    "finite_matched_draws_at_750K": 14806,
+    "bounds_and_ratio_identity": "passed"
+  },
+  {
+    "file": "runs\\v6_main\\cross_model\\mobility_extra__mobility_extra.npz",
+    "sha256": "0779588818d71ea0e68227f3a465968d6e269169205f6c0b3806eebd6f6d23f5",
+    "finite_matched_draws_at_750K": 51609,
+    "bounds_and_ratio_identity": "passed"
+  },
+  {
+    "file": "runs\\v6_main\\cross_model\\mobility_extra__mobility_spline.npz",
+    "sha256": "71e52c1e68432c96f9a110256f290dce171650b181aa9ddcd3229a99ef4e1c47",
+    "finite_matched_draws_at_750K": 12338,
+    "bounds_and_ratio_identity": "passed"
+  },
+  {
+    "file": "runs\\v6_main\\cross_model\\mobility_spline__mobility_extra.npz",
+    "sha256": "b2e10f7cf119a3ee487605e44caf81e6c54865ac4f1ff512f44979f4e2f48b48",
+    "finite_matched_draws_at_750K": 51599,
+    "bounds_and_ratio_identity": "passed"
+  },
+  {
+    "file": "runs\\v6_main\\cross_model\\mobility_spline__mobility_spline.npz",
+    "sha256": "3e7062058ff5338af59bdd0935a38d141fac83e88c9b8d56f3a1403d2ea639ce",
+    "finite_matched_draws_at_750K": 50492,
+    "bounds_and_ratio_identity": "passed"
+  },
+  {
+    "file": "runs\\v6_main\\cross_model\\spline__mobility_extra.npz",
+    "sha256": "58e9597c0d91bb4ae16e3d09fec763269a4e3c13e88a94f82c6d5e197b6ea89e",
+    "finite_matched_draws_at_750K": 38123,
+    "bounds_and_ratio_identity": "passed"
+  },
+  {
+    "file": "runs\\v6_main\\cross_model\\spline__mobility_spline.npz",
+    "sha256": "2497a9bf514eb49577e6325ec8b99b7fa21b738ce46bb3593fda721b9a522cc2",
+    "finite_matched_draws_at_750K": 35727,
+    "bounds_and_ratio_identity": "passed"
+  }
+]

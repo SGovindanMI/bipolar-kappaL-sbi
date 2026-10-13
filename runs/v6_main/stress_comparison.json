@@ -1,0 +1,947 @@
+{
+  "narrow_upturn": {
+    "source_sha256": "c9e170c707c2128eb2bae5ec9bf4d1a6f9f9ca0504eb9ad04dc49a91de4c94cd",
+    "n": 1000,
+    "common_scored_n": 509,
+    "common_slope_n": 87,
+    "slope_selection": "admitted, spans 400-750 K, original four finite estimates in every model",
+    "models": {
+      "baseline": {
+        "inference_sha256": "3d3b5bfa52bb0a9b15b96fdf1e75e27e2cc9eea69bac6a7ee25ede812d9d3c7e",
+        "channels": {
+          "lattice": {
+            "coverage": 0.4168713163064833,
+            "median_absolute_error": 0.426102582311513,
+            "median_interval_width": 0.6992037791378459
+          },
+          "bipolar": {
+            "coverage": 0.7406679764243614,
+            "median_absolute_error": 0.296269822368067,
+            "median_interval_width": 1.2449707151452092
+          },
+          "total": {
+            "coverage": 0.9020137524557956,
+            "median_absolute_error": 0.2796986180128025,
+            "median_interval_width": 1.9404259733374518
+          }
+        },
+        "native_slope": {
+          "n": 144,
+          "median_error": -0.657118824066123,
+          "median_absolute_error": 0.657118824066123
+        },
+        "common_slope": {
+          "n": 87,
+          "median_error": -0.5409959103182249,
+          "median_absolute_error": 0.5409959103182249
+        }
+      },
+      "mobility_spline": {
+        "inference_sha256": "46640eb0f99f55e5df63a0282965ce1eaf4fbe68c98f685cfeba7976e8c52e0f",
+        "channels": {
+          "lattice": {
+            "coverage": 0.9721267190569745,
+            "median_absolute_error": 0.609305335576289,
+            "median_interval_width": 9.982710072021021
+          },
+          "bipolar": {
+            "coverage": 0.9338163064833006,
+            "median_absolute_error": 0.5782333526338376,
+            "median_interval_width": 4.395121936579325
+          },
+          "total": {
+            "coverage": 0.9974214145383105,
+            "median_absolute_error": 0.5690956943010739,
+            "median_interval_width": 15.207400885034755
+          }
+        },
+        "native_slope": {
+          "n": 343,
+          "median_error": -0.01890079841061887,
+          "median_absolute_error": 0.12647198461360598
+        },
+        "common_slope": {
+          "n": 87,
+          "median_error": -0.24064636892047578,
+          "median_absolute_error": 0.6613490750159965
+        }
+      },
+      "mobility_extra": {
+        "inference_sha256": "3115da4b52343ebe04e96b3e121241351d09a599ca95629f9f40c2a2342f0656",
+        "channels": {
+          "lattice": {
+            "coverage": 0.425098231827112,
+            "median_absolute_error": 0.47757040203140266,
+            "median_interval_width": 0.8977542495291311
+          },
+          "bipolar": {
+            "coverage": 0.9306237721021611,
+            "median_absolute_error": 0.3759862380111727,
+            "median_interval_width": 3.2156750382706685
+          },
+          "total": {
+            "coverage": 0.9786345776031434,
+            "median_absolute_error": 0.37805966017695525,
+            "median_interval_width": 4.404162482206866
+          }
+        },
+        "native_slope": {
+          "n": 182,
+          "median_error": -0.7016760959595106,
+          "median_absolute_error": 0.7016760959595106
+        },
+        "common_slope": {
+          "n": 87,
+          "median_error": -0.5997923977736576,
+          "median_absolute_error": 0.5997923977736576
+        }
+      },
+      "mobility": {
+        "inference_sha256": "c66fec909d5650edb7945ee2085054045de9c011523d12f8f37614580517f3df",
+        "channels": {
+          "lattice": {
+            "coverage": 0.4540766208251473,
+            "median_absolute_error": 0.44514228139502804,
+            "median_interval_width": 0.9720828718673331
+          },
+          "bipolar": {
+            "coverage": 0.868737721021611,
+            "median_absolute_error": 0.47460286114107264,
+            "median_interval_width": 3.0469058015069153
+          },
+          "total": {
+            "coverage": 0.9587426326129665,
+            "median_absolute_error": 0.415682265372455,
+            "median_interval_width": 4.305677697738718
+          }
+        },
+        "native_slope": {
+          "n": 154,
+          "median_error": -0.693417484536987,
+          "median_absolute_error": 0.693417484536987
+        },
+        "common_slope": {
+          "n": 87,
+          "median_error": -0.5940085345652331,
+          "median_absolute_error": 0.5940085345652331
+        }
+      },
+      "spline": {
+        "inference_sha256": "0fc5116fe18c13e85c22d5448512860fdeed9e8ee0c92e57642372d8ad30d1a3",
+        "channels": {
+          "lattice": {
+            "coverage": 0.9516208251473477,
+            "median_absolute_error": 0.48722839737370804,
+            "median_interval_width": 6.446195187977857
+          },
+          "bipolar": {
+            "coverage": 0.8488457760314342,
+            "median_absolute_error": 0.30517737395690125,
+            "median_interval_width": 1.7985116810345123
+          },
+          "total": {
+            "coverage": 0.9980353634577603,
+            "median_absolute_error": 0.29964787668472215,
+            "median_interval_width": 7.573451727204079
+          }
+        },
+        "native_slope": {
+          "n": 359,
+          "median_error": -0.05849769671736449,
+          "median_absolute_error": 0.14490958420033956
+        },
+        "common_slope": {
+          "n": 87,
+          "median_error": -0.6064309058366761,
+          "median_absolute_error": 0.8218286052365567
+        }
+      },
+      "extra": {
+        "inference_sha256": "438c92725f6fc04b6c42ad24cda052000ff1a237f5c6adf64ec4d7b2b398c0c0",
+        "channels": {
+          "lattice": {
+            "coverage": 0.41281925343811393,
+            "median_absolute_error": 0.4414373779276116,
+            "median_interval_width": 0.7510517801220313
+          },
+          "bipolar": {
+            "coverage": 0.8365667976424361,
+            "median_absolute_error": 0.22105306528734125,
+            "median_interval_width": 1.3592198335622547
+          },
+          "total": {
+            "coverage": 0.9659872298624754,
+            "median_absolute_error": 0.23593683217916173,
+            "median_interval_width": 2.005565948817786
+          }
+        },
+        "native_slope": {
+          "n": 174,
+          "median_error": -0.6599969888364476,
+          "median_absolute_error": 0.6599969888364476
+        },
+        "common_slope": {
+          "n": 87,
+          "median_error": -0.562108567876374,
+          "median_absolute_error": 0.562108567876374
+        }
+      }
+    }
+  },
+  "narrow_control": {
+    "source_sha256": "86d715067ca79482efe834f38377923f0faa4d3f3e8db3b58db2d233281f2df8",
+    "n": 1000,
+    "common_scored_n": 987,
+    "common_slope_n": 275,
+    "slope_selection": "admitted, spans 400-750 K, original four finite estimates in every model",
+    "models": {
+      "baseline": {
+        "inference_sha256": "cb40d48482b6c482d1aff0d9d29f666e161fbc79117d0ccaca6fb8c68b601a2e",
+        "channels": {
+          "lattice": {
+            "coverage": 0.9495314083080041,
+            "median_absolute_error": 0.04489232411219568,
+            "median_interval_width": 0.30970644198530145
+          },
+          "bipolar": {
+            "coverage": 0.96403242147923,
+            "median_absolute_error": 0.014709657334334297,
+            "median_interval_width": 0.16296620306141682
+          },
+          "total": {
+            "coverage": 0.9908181357649443,
+            "median_absolute_error": 0.042783792250291386,
+            "median_interval_width": 0.4269915313493805
+          }
+        },
+        "native_slope": {
+          "n": 346,
+          "median_error": -0.006783605545624349,
+          "median_absolute_error": 0.05316457120701147
+        },
+        "common_slope": {
+          "n": 275,
+          "median_error": -0.003808648500773948,
+          "median_absolute_error": 0.04138882221391449
+        }
+      },
+      "mobility_spline": {
+        "inference_sha256": "2756910bb9d3e5b18f969c65cbd92668915ab337083e026e394a18efcca110db",
+        "channels": {
+          "lattice": {
+            "coverage": 0.9690982776089159,
+            "median_absolute_error": 0.162994179030444,
+            "median_interval_width": 1.4235306611383671
+          },
+          "bipolar": {
+            "coverage": 0.9311043566362716,
+            "median_absolute_error": 0.04582626840303325,
+            "median_interval_width": 0.5987233350884253
+          },
+          "total": {
+            "coverage": 0.9968971631205674,
+            "median_absolute_error": 0.13063030621449473,
+            "median_interval_width": 2.045989329404807
+          }
+        },
+        "native_slope": {
+          "n": 325,
+          "median_error": -0.007794928270823731,
+          "median_absolute_error": 0.25230225756157254
+        },
+        "common_slope": {
+          "n": 275,
+          "median_error": -0.025711650587368795,
+          "median_absolute_error": 0.19688438575148623
+        }
+      },
+      "mobility_extra": {
+        "inference_sha256": "e084f83b65fe2c57014eb031406482d450cc937dbb9590cc40e2ff34e0625fbc",
+        "channels": {
+          "lattice": {
+            "coverage": 0.88443515704154,
+            "median_absolute_error": 0.08420328743600947,
+            "median_interval_width": 0.3903031653639132
+          },
+          "bipolar": {
+            "coverage": 0.9380065856129686,
+            "median_absolute_error": 0.03140204288150204,
+            "median_interval_width": 0.27704357080888564
+          },
+          "total": {
+            "coverage": 0.9945542046605876,
+            "median_absolute_error": 0.060334890428567434,
+            "median_interval_width": 0.6735988215010065
+          }
+        },
+        "native_slope": {
+          "n": 334,
+          "median_error": -0.05923472109537675,
+          "median_absolute_error": 0.10630997577713458
+        },
+        "common_slope": {
+          "n": 275,
+          "median_error": -0.0630357545686933,
+          "median_absolute_error": 0.09392403710576136
+        }
+      },
+      "mobility": {
+        "inference_sha256": "c0ae2026a437d07157ae109595635eaec22ee46ef79770868198a6dc875fe7e2",
+        "channels": {
+          "lattice": {
+            "coverage": 0.9361068895643364,
+            "median_absolute_error": 0.054264247390955145,
+            "median_interval_width": 0.34559459693169947
+          },
+          "bipolar": {
+            "coverage": 0.959726443768997,
+            "median_absolute_error": 0.022875068556643972,
+            "median_interval_width": 0.2775285901575334
+          },
+          "total": {
+            "coverage": 0.9925911854103343,
+            "median_absolute_error": 0.05528063104076497,
+            "median_interval_width": 0.6718321716031278
+          }
+        },
+        "native_slope": {
+          "n": 329,
+          "median_error": 0.00019963672203227034,
+          "median_absolute_error": 0.06234088209433168
+        },
+        "common_slope": {
+          "n": 275,
+          "median_error": 0.002535165146416274,
+          "median_absolute_error": 0.0506448638683845
+        }
+      },
+      "spline": {
+        "inference_sha256": "3baccc5391146bd24e6b163a56a1e9bd92a854560217ea6ba3defa9694e49893",
+        "channels": {
+          "lattice": {
+            "coverage": 0.9633991894630193,
+            "median_absolute_error": 0.12476853135967984,
+            "median_interval_width": 0.9541841248087668
+          },
+          "bipolar": {
+            "coverage": 0.9059650455927052,
+            "median_absolute_error": 0.02895447054477017,
+            "median_interval_width": 0.2901299976334558
+          },
+          "total": {
+            "coverage": 0.9945542046605876,
+            "median_absolute_error": 0.09014773674803267,
+            "median_interval_width": 1.220432278678611
+          }
+        },
+        "native_slope": {
+          "n": 352,
+          "median_error": -0.06022235765035458,
+          "median_absolute_error": 0.19594794335154928
+        },
+        "common_slope": {
+          "n": 275,
+          "median_error": -0.055647838912572994,
+          "median_absolute_error": 0.13411368715295496
+        }
+      },
+      "extra": {
+        "inference_sha256": "cc0b358e157fcd494963f6ef723b14517d58718d9442f536c8f85d919f09c9af",
+        "channels": {
+          "lattice": {
+            "coverage": 0.9086246200607903,
+            "median_absolute_error": 0.07397185728473354,
+            "median_interval_width": 0.35551205831071914
+          },
+          "bipolar": {
+            "coverage": 0.9259751773049646,
+            "median_absolute_error": 0.022235870986930723,
+            "median_interval_width": 0.18160361887264292
+          },
+          "total": {
+            "coverage": 0.9861955420466059,
+            "median_absolute_error": 0.04678351698183725,
+            "median_interval_width": 0.44052918201979335
+          }
+        },
+        "native_slope": {
+          "n": 359,
+          "median_error": -0.06372574269732639,
+          "median_absolute_error": 0.10258884648468314
+        },
+        "common_slope": {
+          "n": 275,
+          "median_error": -0.06565921528456468,
+          "median_absolute_error": 0.08602807690374514
+        }
+      }
+    }
+  },
+  "mobility_low": {
+    "source_sha256": "e04e771cac953c071bd31e1a4b6820a921e32622f534beee0edb5111948d0cdf",
+    "n": 1000,
+    "common_scored_n": 790,
+    "common_slope_n": 224,
+    "slope_selection": "admitted, spans 400-750 K, original four finite estimates in every model",
+    "models": {
+      "baseline": {
+        "inference_sha256": "49f110831de0f0859c98c336a2d5f41279d96fad19eed687ce0e65b2f9e2c258",
+        "channels": {
+          "lattice": {
+            "coverage": 0.9175632911392405,
+            "median_absolute_error": 0.030996735746805393,
+            "median_interval_width": 0.2036015349266983
+          },
+          "bipolar": {
+            "coverage": 0.7548259493670886,
+            "median_absolute_error": 7.442177214386757e-05,
+            "median_interval_width": 0.025064936110107836
+          },
+          "total": {
+            "coverage": 0.9665348101265823,
+            "median_absolute_error": 0.024799581946825633,
+            "median_interval_width": 0.24402645764566333
+          }
+        },
+        "native_slope": {
+          "n": 277,
+          "median_error": -0.02239904401239723,
+          "median_absolute_error": 0.03589358609988991
+        },
+        "common_slope": {
+          "n": 224,
+          "median_error": -0.019102386614864242,
+          "median_absolute_error": 0.0337533475396503
+        }
+      },
+      "mobility_spline": {
+        "inference_sha256": "c2ed9f11868faa5d8b0e76d2e7ea046d76587f1639eaeaf6d25fae4f1af322ba",
+        "channels": {
+          "lattice": {
+            "coverage": 0.9826740506329114,
+            "median_absolute_error": 0.0775137557598784,
+            "median_interval_width": 0.5475903822412876
+          },
+          "bipolar": {
+            "coverage": 0.8266613924050633,
+            "median_absolute_error": 0.0003841246761907214,
+            "median_interval_width": 0.10413864127728131
+          },
+          "total": {
+            "coverage": 0.9973892405063292,
+            "median_absolute_error": 0.06479489692897766,
+            "median_interval_width": 0.8415364056518948
+          }
+        },
+        "native_slope": {
+          "n": 336,
+          "median_error": -0.07616072132432322,
+          "median_absolute_error": 0.09523957252125703
+        },
+        "common_slope": {
+          "n": 224,
+          "median_error": -0.08000967557257628,
+          "median_absolute_error": 0.1048425637386109
+        }
+      },
+      "mobility_extra": {
+        "inference_sha256": "cf13b105f927bd5fb859c0a83fa3ccd75ef5575188de18a844ff1d83bbc88f3d",
+        "channels": {
+          "lattice": {
+            "coverage": 0.8992879746835443,
+            "median_absolute_error": 0.06131735808734495,
+            "median_interval_width": 0.2755355337424279
+          },
+          "bipolar": {
+            "coverage": 0.9123417721518987,
+            "median_absolute_error": 4.4278373322138176e-05,
+            "median_interval_width": 0.032101625295030585
+          },
+          "total": {
+            "coverage": 0.9897943037974684,
+            "median_absolute_error": 0.031077732230709698,
+            "median_interval_width": 0.326331135211932
+          }
+        },
+        "native_slope": {
+          "n": 349,
+          "median_error": -0.0774274634502265,
+          "median_absolute_error": 0.08815101868507863
+        },
+        "common_slope": {
+          "n": 224,
+          "median_error": -0.06868772891744891,
+          "median_absolute_error": 0.07188756785576128
+        }
+      },
+      "mobility": {
+        "inference_sha256": "7004cf2dd6076f7a92bed79cf07694311abc77aa9920e585ee452a15a26158bb",
+        "channels": {
+          "lattice": {
+            "coverage": 0.95625,
+            "median_absolute_error": 0.03018748816687361,
+            "median_interval_width": 0.21621782441414408
+          },
+          "bipolar": {
+            "coverage": 0.8943037974683544,
+            "median_absolute_error": 5.801103156116563e-05,
+            "median_interval_width": 0.03489748158722818
+          },
+          "total": {
+            "coverage": 0.9912974683544303,
+            "median_absolute_error": 0.025298058636708642,
+            "median_interval_width": 0.2909837646725527
+          }
+        },
+        "native_slope": {
+          "n": 344,
+          "median_error": -0.02050118073953877,
+          "median_absolute_error": 0.03868324068860923
+        },
+        "common_slope": {
+          "n": 224,
+          "median_error": -0.016619226245516594,
+          "median_absolute_error": 0.03327076421960759
+        }
+      },
+      "spline": {
+        "inference_sha256": "180d586dddb88cf6d19470cb9942fdbc70520495b10c2ede5cf65f88f09f9110",
+        "channels": {
+          "lattice": {
+            "coverage": 0.9283227848101265,
+            "median_absolute_error": 0.06745863321181267,
+            "median_interval_width": 0.4112227828562264
+          },
+          "bipolar": {
+            "coverage": 0.7208069620253165,
+            "median_absolute_error": 0.00021037584918493158,
+            "median_interval_width": 0.04896565171476486
+          },
+          "total": {
+            "coverage": 0.9716772151898734,
+            "median_absolute_error": 0.05018035231896756,
+            "median_interval_width": 0.5710555572531206
+          }
+        },
+        "native_slope": {
+          "n": 282,
+          "median_error": -0.0546138299503261,
+          "median_absolute_error": 0.090371702425708
+        },
+        "common_slope": {
+          "n": 224,
+          "median_error": -0.0546138299503261,
+          "median_absolute_error": 0.07924585176599348
+        }
+      },
+      "extra": {
+        "inference_sha256": "d9d685497aff91707189effb861fc385db2c827fe132d2920e0f2c8d78e98192",
+        "channels": {
+          "lattice": {
+            "coverage": 0.8612341772151899,
+            "median_absolute_error": 0.062127000837609025,
+            "median_interval_width": 0.2711583350384704
+          },
+          "bipolar": {
+            "coverage": 0.7699367088607595,
+            "median_absolute_error": 5.076107178381575e-05,
+            "median_interval_width": 0.02151615528812252
+          },
+          "total": {
+            "coverage": 0.967246835443038,
+            "median_absolute_error": 0.02994565215123074,
+            "median_interval_width": 0.29369237529121417
+          }
+        },
+        "native_slope": {
+          "n": 268,
+          "median_error": -0.07680563220898094,
+          "median_absolute_error": 0.09021910611884251
+        },
+        "common_slope": {
+          "n": 224,
+          "median_error": -0.07232264116602032,
+          "median_absolute_error": 0.08241181389582453
+        }
+      }
+    }
+  },
+  "mobility_high": {
+    "source_sha256": "93c756c68c9bb6d4641a3cc13e50024eee265a8526ae683fc28237e85360d293",
+    "n": 1000,
+    "common_scored_n": 648,
+    "common_slope_n": 170,
+    "slope_selection": "admitted, spans 400-750 K, original four finite estimates in every model",
+    "models": {
+      "baseline": {
+        "inference_sha256": "c5e9a11a841447cfb92f3661b3f003558a18b8e4d68b6b1bf50ce8be9b914345",
+        "channels": {
+          "lattice": {
+            "coverage": 0.9137731481481481,
+            "median_absolute_error": 0.03375108308176894,
+            "median_interval_width": 0.2282766872276754
+          },
+          "bipolar": {
+            "coverage": 0.7488425925925926,
+            "median_absolute_error": 0.00011186378507166617,
+            "median_interval_width": 0.02766896119744175
+          },
+          "total": {
+            "coverage": 0.9613233024691358,
+            "median_absolute_error": 0.03052297901002421,
+            "median_interval_width": 0.29194351338062385
+          }
+        },
+        "native_slope": {
+          "n": 205,
+          "median_error": -0.012796808311385743,
+          "median_absolute_error": 0.037445743656115416
+        },
+        "common_slope": {
+          "n": 170,
+          "median_error": -0.01058777106379094,
+          "median_absolute_error": 0.033834538081328136
+        }
+      },
+      "mobility_spline": {
+        "inference_sha256": "8cfa9504b11a9e617ecdcb499cf84f490d8453c0566a2555543123599a5bcaa0",
+        "channels": {
+          "lattice": {
+            "coverage": 0.9841820987654321,
+            "median_absolute_error": 0.09795354825264146,
+            "median_interval_width": 0.74453828749634
+          },
+          "bipolar": {
+            "coverage": 0.8599537037037037,
+            "median_absolute_error": 0.0006380143855317002,
+            "median_interval_width": 0.16100924694873459
+          },
+          "total": {
+            "coverage": 0.9962384259259259,
+            "median_absolute_error": 0.0870431196521897,
+            "median_interval_width": 1.183819205089032
+          }
+        },
+        "native_slope": {
+          "n": 287,
+          "median_error": -0.056642866991764185,
+          "median_absolute_error": 0.1344452092673898
+        },
+        "common_slope": {
+          "n": 170,
+          "median_error": -0.04840109174477731,
+          "median_absolute_error": 0.10601149634366114
+        }
+      },
+      "mobility_extra": {
+        "inference_sha256": "edc3d4613b48a130173af450bf7f1352738bd7193e450f6e665d59b05c11be9a",
+        "channels": {
+          "lattice": {
+            "coverage": 0.8988233024691358,
+            "median_absolute_error": 0.06174737628640714,
+            "median_interval_width": 0.29725771000989126
+          },
+          "bipolar": {
+            "coverage": 0.9171489197530864,
+            "median_absolute_error": 8.369394260414003e-05,
+            "median_interval_width": 0.03252470902005056
+          },
+          "total": {
+            "coverage": 0.9918981481481481,
+            "median_absolute_error": 0.03898820875231501,
+            "median_interval_width": 0.3776129832995901
+          }
+        },
+        "native_slope": {
+          "n": 297,
+          "median_error": -0.07654236058501973,
+          "median_absolute_error": 0.09100257419670754
+        },
+        "common_slope": {
+          "n": 170,
+          "median_error": -0.07143004425301475,
+          "median_absolute_error": 0.08140038175738523
+        }
+      },
+      "mobility": {
+        "inference_sha256": "0bba8aff163d476667358c9d31e6976205517932ff231df71d23272acbcd0f38",
+        "channels": {
+          "lattice": {
+            "coverage": 0.9645061728395061,
+            "median_absolute_error": 0.03252838301486577,
+            "median_interval_width": 0.2357683650052861
+          },
+          "bipolar": {
+            "coverage": 0.9047067901234568,
+            "median_absolute_error": 9.349012833152919e-05,
+            "median_interval_width": 0.03784113377086756
+          },
+          "total": {
+            "coverage": 0.9928626543209876,
+            "median_absolute_error": 0.031594430148956576,
+            "median_interval_width": 0.36297120085530177
+          }
+        },
+        "native_slope": {
+          "n": 306,
+          "median_error": -0.014158490273439683,
+          "median_absolute_error": 0.044388062593833044
+        },
+        "common_slope": {
+          "n": 170,
+          "median_error": -0.012420411340938228,
+          "median_absolute_error": 0.03335061763333974
+        }
+      },
+      "spline": {
+        "inference_sha256": "8382971a6d5320e8ea2f05bee333fcb112b43e11cf628c843281523dad01b1bf",
+        "channels": {
+          "lattice": {
+            "coverage": 0.9280478395061729,
+            "median_absolute_error": 0.08686945291010573,
+            "median_interval_width": 0.5048049548909533
+          },
+          "bipolar": {
+            "coverage": 0.7017746913580247,
+            "median_absolute_error": 0.0004266914569534684,
+            "median_interval_width": 0.07326216595474672
+          },
+          "total": {
+            "coverage": 0.9699074074074074,
+            "median_absolute_error": 0.06739283481068842,
+            "median_interval_width": 0.7336610397314844
+          }
+        },
+        "native_slope": {
+          "n": 207,
+          "median_error": -0.032711619666276004,
+          "median_absolute_error": 0.08350096862131817
+        },
+        "common_slope": {
+          "n": 170,
+          "median_error": -0.03225545107954453,
+          "median_absolute_error": 0.0761938076839908
+        }
+      },
+      "extra": {
+        "inference_sha256": "5c448beb1a79269208b81a2a481954691252fd78a56661da00c0fab9e162bcf1",
+        "channels": {
+          "lattice": {
+            "coverage": 0.8659336419753086,
+            "median_absolute_error": 0.06396053849489935,
+            "median_interval_width": 0.2916722841588182
+          },
+          "bipolar": {
+            "coverage": 0.7692901234567902,
+            "median_absolute_error": 8.953736358872095e-05,
+            "median_interval_width": 0.022531259466717884
+          },
+          "total": {
+            "coverage": 0.9633487654320988,
+            "median_absolute_error": 0.035899148957013294,
+            "median_interval_width": 0.3281939568150583
+          }
+        },
+        "native_slope": {
+          "n": 206,
+          "median_error": -0.07889792105324761,
+          "median_absolute_error": 0.09591200163205843
+        },
+        "common_slope": {
+          "n": 170,
+          "median_error": -0.07788211795816335,
+          "median_absolute_error": 0.08651414411521391
+        }
+      }
+    }
+  },
+  "wide_upturn": {
+    "source_sha256": "ded5f600f0c86a0493dbfadb929f2a1ab0c9c1db3f0644e0422eca9e9fac02e5",
+    "n": 1000,
+    "common_scored_n": 190,
+    "common_slope_n": 48,
+    "slope_selection": "admitted, spans 400-750 K, original four finite estimates in every model",
+    "models": {
+      "baseline": {
+        "inference_sha256": "ae78939bad74d8e977a695545548ae6a66c952bddf51a6accdfceaf9900de970",
+        "channels": {
+          "lattice": {
+            "coverage": 0.4319078947368421,
+            "median_absolute_error": 0.21873100855880245,
+            "median_interval_width": 0.43979874912161565
+          },
+          "bipolar": {
+            "coverage": 0.53125,
+            "median_absolute_error": 1.0647356279207245e-06,
+            "median_interval_width": 0.019037676772171587
+          },
+          "total": {
+            "coverage": 0.7684210526315789,
+            "median_absolute_error": 0.22585689485785276,
+            "median_interval_width": 1.0771238159891316
+          }
+        },
+        "native_slope": {
+          "n": 55,
+          "median_error": -0.5163050893101591,
+          "median_absolute_error": 0.5163050893101591
+        },
+        "common_slope": {
+          "n": 48,
+          "median_error": -0.5050886471757228,
+          "median_absolute_error": 0.5050886471757228
+        }
+      },
+      "mobility_spline": {
+        "inference_sha256": "5227d64848e5355f9787bb8c38858fead66f8ef4bc90adfd0b2e5f1fb1d24013",
+        "channels": {
+          "lattice": {
+            "coverage": 0.9917763157894737,
+            "median_absolute_error": 0.2869471953520929,
+            "median_interval_width": 1.49482850991153
+          },
+          "bipolar": {
+            "coverage": 0.5240131578947368,
+            "median_absolute_error": 1.5501941084215128e-06,
+            "median_interval_width": 0.061616038954625404
+          },
+          "total": {
+            "coverage": 0.9967105263157895,
+            "median_absolute_error": 0.18188007109696608,
+            "median_interval_width": 3.5685274376024774
+          }
+        },
+        "native_slope": {
+          "n": 416,
+          "median_error": -0.02605540700985562,
+          "median_absolute_error": 0.05707707345649521
+        },
+        "common_slope": {
+          "n": 48,
+          "median_error": -0.05932183133389122,
+          "median_absolute_error": 0.6616755847354194
+        }
+      },
+      "mobility_extra": {
+        "inference_sha256": "e32b12704e2cbdec31ebdcfeefa131062bb644ea92cc2cb86f2618f29dc2409c",
+        "channels": {
+          "lattice": {
+            "coverage": 0.4799342105263158,
+            "median_absolute_error": 0.22943560300979565,
+            "median_interval_width": 0.4479341014730904
+          },
+          "bipolar": {
+            "coverage": 0.5901315789473685,
+            "median_absolute_error": 6.810392241901246e-08,
+            "median_interval_width": 0.013433580478463603
+          },
+          "total": {
+            "coverage": 0.975,
+            "median_absolute_error": 0.12879628346417815,
+            "median_interval_width": 1.0215325309752756
+          }
+        },
+        "native_slope": {
+          "n": 138,
+          "median_error": -0.5057700795656808,
+          "median_absolute_error": 0.5057700795656808
+        },
+        "common_slope": {
+          "n": 48,
+          "median_error": -0.5867105564874882,
+          "median_absolute_error": 0.5867105564874882
+        }
+      },
+      "mobility": {
+        "inference_sha256": "952d0c7f53e3da2796d4f6385113aa3d69a435ac48e439359806da783dc50c6e",
+        "channels": {
+          "lattice": {
+            "coverage": 0.4236842105263158,
+            "median_absolute_error": 0.22334108256184226,
+            "median_interval_width": 0.4509921071294292
+          },
+          "bipolar": {
+            "coverage": 0.46151315789473685,
+            "median_absolute_error": 2.5583947740429164e-06,
+            "median_interval_width": 0.0452953116350385
+          },
+          "total": {
+            "coverage": 0.8289473684210527,
+            "median_absolute_error": 0.19696971559547966,
+            "median_interval_width": 1.5877521216455168
+          }
+        },
+        "native_slope": {
+          "n": 97,
+          "median_error": -0.5809213623609303,
+          "median_absolute_error": 0.5809213623609303
+        },
+        "common_slope": {
+          "n": 48,
+          "median_error": -0.48724448281855354,
+          "median_absolute_error": 0.48724448281855354
+        }
+      },
+      "spline": {
+        "inference_sha256": "3b1d2f00cb9a1b16ecf9191c86bb2cfbf028410be76537a2d10fc0cee1aa1b55",
+        "channels": {
+          "lattice": {
+            "coverage": 0.9588815789473685,
+            "median_absolute_error": 0.1665935951164862,
+            "median_interval_width": 0.843847149345778
+          },
+          "bipolar": {
+            "coverage": 0.5536184210526316,
+            "median_absolute_error": 8.083389133068216e-07,
+            "median_interval_width": 0.026597253285618926
+          },
+          "total": {
+            "coverage": 0.9947368421052631,
+            "median_absolute_error": 0.1090187204812263,
+            "median_interval_width": 1.5330621874238286
+          }
+        },
+        "native_slope": {
+          "n": 414,
+          "median_error": -0.019213044439642668,
+          "median_absolute_error": 0.04852715877509933
+        },
+        "common_slope": {
+          "n": 48,
+          "median_error": -0.07756027519945015,
+          "median_absolute_error": 0.5753275278759721
+        }
+      },
+      "extra": {
+        "inference_sha256": "789ffd086d95b070c40e284870578d9aac779073555a850aef1bf9d57aa82367",
+        "channels": {
+          "lattice": {
+            "coverage": 0.4710526315789474,
+            "median_absolute_error": 0.22662390764068363,
+            "median_interval_width": 0.43283919752298045
+          },
+          "bipolar": {
+            "coverage": 0.6424342105263158,
+            "median_absolute_error": 7.181537692543707e-08,
+            "median_interval_width": 0.005522499239172125
+          },
+          "total": {
+            "coverage": 0.930921052631579,
+            "median_absolute_error": 0.1321280088770579,
+            "median_interval_width": 0.763249241995833
+          }
+        },
+        "native_slope": {
+          "n": 93,
+          "median_error": -0.423315379743769,
+          "median_absolute_error": 0.423315379743769
+        },
+        "common_slope": {
+          "n": 48,
+          "median_error": -0.5809527027864527,
+          "median_absolute_error": 0.5809527027864527
+        }
+      }
+    }
+  }
+}

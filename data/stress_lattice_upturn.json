@@ -1,0 +1,13 @@
+{
+  "model_version": "5.0.0",
+  "n": 1000,
+  "seed": 2004,
+  "batch": 4096,
+  "stress": "lattice_upturn",
+  "noise": 0.02,
+  "rejected_zT": 362,
+  "attempted": 4096,
+  "generated_accepted": 3734,
+  "stored": 1000,
+  "seconds": 1.1701617240905762
+}

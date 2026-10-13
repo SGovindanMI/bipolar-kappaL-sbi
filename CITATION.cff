@@ -1,0 +1,27 @@
+# Complete before public release: full author list with ORCIDs, repository URL,
+# data-deposit DOI and the article reference once it is final (see CITATION.md).
+cff-version: 1.2.0
+message: "If you use this software or its results, please cite this software and Starrydata; the associated manuscript is currently unpublished."
+title: "Bipolar heat and model-dependent estimates of lattice thermal conductivity across a thermoelectric corpus: code and models"
+type: software
+version: "6.0.1"
+license: MIT
+authors:
+  - name: "Govindan"
+keywords:
+  - thermoelectrics
+  - lattice thermal conductivity
+  - bipolar conduction
+  - simulation-based inference
+  - amortised inference
+references:
+  - type: article
+    title: "Starrydata: from published plots to shared materials data"
+    authors:
+      - family-names: Katsura
+        given-names: Yukari
+    journal: "Science and Technology of Advanced Materials: Methods"
+    volume: 5
+    start: 2506976
+    year: 2025
+    doi: 10.1080/27660400.2025.2506976

@@ -1,0 +1,12 @@
+{
+  "name": "bipolar-kappal-combined-manuscript",
+  "private": true,
+  "description": "Builds the combined manuscript and SI .docx from combined_numbers.json",
+  "scripts": {
+    "build": "node build_manuscript.js"
+  },
+  "dependencies": {
+    "docx": "9.6.1",
+    "jszip": "3.10.1"
+  }
+}

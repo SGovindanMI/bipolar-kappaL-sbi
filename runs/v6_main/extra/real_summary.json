@@ -1,0 +1,173 @@
+{
+  "metadata": {
+    "model_version": "6.0.1-research",
+    "spec": {
+      "version": "6.0.1-research",
+      "variant": "extra",
+      "names": [
+        "log10N_net",
+        "log10m_maj",
+        "log10m_min",
+        "log10mu300",
+        "p_mu",
+        "log10Eg",
+        "log10A",
+        "w",
+        "r",
+        "kmin",
+        "B_extra"
+      ],
+      "lower": [
+        16.0,
+        -1.3,
+        -1.7,
+        null,
+        -3.5,
+        -1.5,
+        -1.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "upper": [
+        21.0,
+        0.7,
+        1.0,
+        null,
+        2.0,
+        0.55,
+        1.2,
+        3.0,
+        2.0,
+        0.7,
+        0.05
+      ],
+      "conditional_mu": "3.1 - 0.5*(log10N_net-17) + Uniform(-1.8,1.2)",
+      "spline_knots": null,
+      "spline_limits": null,
+      "spline": null,
+      "extra": "B_extra*(T/300)^3, separate from lattice",
+      "noise": 0.02,
+      "zT_max": 3.5
+    },
+    "checkpoint_sha256": "ee3ba5fbfb03321988b81cd3bf4f901aeb171904a1b2c24166c20fd7f6d5fa42",
+    "source_sha256": "df340f5bb99680dff990902b06adfaaafd8818f011ba1dd910579924b3369275",
+    "channels": [
+      "sigma",
+      "S_uVK",
+      "kappa",
+      "kappa_L",
+      "kappa_bip",
+      "Luni",
+      "kappa_e",
+      "kappa_extra"
+    ],
+    "slope_names": [
+      "A",
+      "B",
+      "C",
+      "Cprime_bip",
+      "Cprime_all"
+    ],
+    "final_fraction_channels": [
+      "lattice",
+      "bipolar",
+      "extra"
+    ],
+    "matching_parameter_truth": false,
+    "seed": 6115,
+    "draws": 128,
+    "budget": 8192,
+    "batch": 32,
+    "min_draws": 64,
+    "admission_threshold": 0.75,
+    "bands": "latent 2.5 and 97.5 percentiles, no observation noise",
+    "prior_restriction": "conditional parameter box and peak zT <=3.5 on 16-point observation window",
+    "seconds": 245.2633945941925
+  },
+  "n": 13031,
+  "scored": 7142,
+  "admitted": 5520,
+  "estimators": [
+    "A: Kim subtraction",
+    "B: unipolar posterior subtraction",
+    "C: model lattice",
+    "Cprime_bip: B minus marginal median bipolar",
+    "Cprime_all: Cprime_bip minus marginal median extra"
+  ],
+  "covariance_note": "Medians do not add. Matched-draw fractions and nested comparisons are separate.",
+  "selection_note": "Native requires five finite slopes; common additionally requires baseline admission and four finite slopes",
+  "native": {
+    "n": 3065,
+    "papers": 986,
+    "shifts": {
+      "C_A": [
+        -0.2520226873296213,
+        -0.27269296817655114,
+        -0.23318130596923833
+      ],
+      "C_B": [
+        -0.2831349026876084,
+        -0.3093402542333799,
+        -0.2504640143394717
+      ],
+      "Cprime_bip_A": [
+        -0.12555707662515836,
+        -0.14496709966510823,
+        -0.10842709899503823
+      ],
+      "Cprime_all_A": [
+        -0.2538644415694537,
+        -0.27963480603124885,
+        -0.23119633090516556
+      ]
+    },
+    "change_C_slope_vs_baseline": [
+      -0.039108067267814364,
+      -0.04365970020869736,
+      -0.03461473040243632
+    ]
+  },
+  "common_baseline": {
+    "n": 2811,
+    "papers": 924,
+    "shifts": {
+      "C_A": [
+        -0.2441222662429352,
+        -0.26567133252638087,
+        -0.22856414572874487
+      ],
+      "C_B": [
+        -0.27292304707457593,
+        -0.3027020300659581,
+        -0.24260093166759722
+      ],
+      "Cprime_bip_A": [
+        -0.1215628660306067,
+        -0.13996769596976044,
+        -0.10488555805086736
+      ],
+      "Cprime_all_A": [
+        -0.24321720372319244,
+        -0.2727700198432051,
+        -0.22412479390724482
+      ]
+    },
+    "change_C_slope_vs_baseline": [
+      -0.0378582149140414,
+      -0.04278804852204866,
+      -0.03320721827254451
+    ]
+  },
+  "admission_overlap": {
+    "both": 5053,
+    "new_only": 467,
+    "baseline_only": 2198
+  },
+  "nested_C_B_interval": [
+    -0.302518530189991,
+    -0.27707527577877045,
+    -0.2526834100484848
+  ]
+}
